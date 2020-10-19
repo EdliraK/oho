@@ -15,7 +15,13 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
     <owl:Ontology rdf:about="https://w3id.org/oho#">
+        <owl:versionIRI rdf:resource="https://w3id.org/oho#/1.0.0"/>
         <owl:imports rdf:resource="https://w3id.org/list"/>
+        <dc:contributor>Abdel-Rahman Tawil</dc:contributor>
+        <dc:contributor>Franco Cheung</dc:contributor>
+        <dc:contributor>Kudirat Ayinla</dc:contributor>
+        <dc:creator>Edlira Vakaj</dc:creator>
+        <dc:title>OHO: an Offsite Housing Ontology</dc:title>
     </owl:Ontology>
     
 
@@ -29,6 +35,13 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 
@@ -229,7 +242,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/oho#%23hasSource">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/oho#ProjectCost"/>
-        <rdfs:range rdf:resource="https://w3id.org/oho#%23DataSource"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#DataSource"/>
     </owl:ObjectProperty>
     
 
@@ -3284,6 +3297,15 @@ such as columns, reinforcement cages etc.</dc:description>
     
 
 
+    <!-- https://w3id.org/oho#DataSource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#DataSource">
+        <rdfs:comment>Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/oho#EnergySystem -->
 
 
@@ -3373,15 +3395,6 @@ such as columns, reinforcement cages etc.</dc:description>
 
     <owl:Class rdf:about="https://w3id.org/oho#ValueAdded">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Activity"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/oho#%23DataSource -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho#%23DataSource">
-        <rdfs:comment>Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect.</rdfs:comment>
     </owl:Class>
     
 

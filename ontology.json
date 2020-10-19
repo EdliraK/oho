@@ -2951,6 +2951,9 @@
     "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
 }, {
@@ -6703,8 +6706,24 @@
 }, {
   "@id" : "https://w3id.org/oho#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Abdel-Rahman Tawil"
+  }, {
+    "@value" : "Franco Cheung"
+  }, {
+    "@value" : "Kudirat Ayinla"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Edlira Vakaj"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "OHO: an Offsite Housing Ontology"
+  } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "https://w3id.org/list"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/oho#/1.0.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#%231-20",
@@ -6959,12 +6978,6 @@
     "@value" : "24.99"
   } ]
 }, {
-  "@id" : "https://w3id.org/oho#%23DataSource",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect."
-  } ]
-}, {
   "@id" : "https://w3id.org/oho#%23M&E_Consult",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#%23M&E_Consult" ],
   "http://www.semanticweb.org/hasNextActivity" : [ {
@@ -6984,7 +6997,7 @@
     "@id" : "https://w3id.org/oho#ProjectCost"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/oho#%23DataSource"
+    "@id" : "https://w3id.org/oho#DataSource"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#1.11LoadCPBoardOnFrame",
@@ -7147,6 +7160,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/oho#Podsub-assembly"
+  } ]
+}, {
+  "@id" : "https://w3id.org/oho#DataSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect."
   } ]
 }, {
   "@id" : "https://w3id.org/oho#EnergySystem",

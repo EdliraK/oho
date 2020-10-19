@@ -7,11 +7,21 @@
 @base <https://w3id.org/oho#> .
 
 <https://w3id.org/oho#> rdf:type owl:Ontology ;
-                         owl:imports <https://w3id.org/list> .
+                         owl:versionIRI <https://w3id.org/oho#/1.0.0> ;
+                         owl:imports <https://w3id.org/list> ;
+                         <http://purl.org/dc/elements/1.1/contributor> "Abdel-Rahman Tawil" ,
+                                                                       "Franco Cheung" ,
+                                                                       "Kudirat Ayinla" ;
+                         <http://purl.org/dc/elements/1.1/creator> "Edlira Vakaj" ;
+                         <http://purl.org/dc/elements/1.1/title> "OHO: an Offsite Housing Ontology" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
 
 ###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
@@ -132,7 +142,7 @@
 <https://w3id.org/oho#%23hasSource> rdf:type owl:ObjectProperty ,
                                              owl:FunctionalProperty ;
                                     rdfs:domain :ProjectCost ;
-                                    rdfs:range <https://w3id.org/oho#%23DataSource> .
+                                    rdfs:range :DataSource .
 
 
 #################################################################
@@ -1850,6 +1860,11 @@ such as columns, reinforcement cages etc.""" .
                         rdfs:subClassOf :Podsub-assembly .
 
 
+###  https://w3id.org/oho#DataSource
+:DataSource rdf:type owl:Class ;
+            rdfs:comment "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect." .
+
+
 ###  https://w3id.org/oho#EnergySystem
 :EnergySystem rdf:type owl:Class .
 
@@ -1900,11 +1915,6 @@ such as columns, reinforcement cages etc.""" .
 ###  https://w3id.org/oho#ValueAdded
 :ValueAdded rdf:type owl:Class ;
             rdfs:subClassOf <http://www.semanticweb.org/Activity> .
-
-
-###  https://w3id.org/oho#%23DataSource
-<https://w3id.org/oho#%23DataSource> rdf:type owl:Class ;
-                                     rdfs:comment "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect." .
 
 
 ###  https://w3id.org/oho#%231.2mmTHK_CS

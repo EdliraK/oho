@@ -1,5 +1,11 @@
 <https://w3id.org/oho#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/oho#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/oho#/1.0.0> .
 <https://w3id.org/oho#> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/list> .
+<https://w3id.org/oho#> <http://purl.org/dc/elements/1.1/contributor> "Abdel-Rahman Tawil" .
+<https://w3id.org/oho#> <http://purl.org/dc/elements/1.1/contributor> "Franco Cheung" .
+<https://w3id.org/oho#> <http://purl.org/dc/elements/1.1/contributor> "Kudirat Ayinla" .
+<https://w3id.org/oho#> <http://purl.org/dc/elements/1.1/creator> "Edlira Vakaj" .
+<https://w3id.org/oho#> <http://purl.org/dc/elements/1.1/title> "OHO: an Offsite Housing Ontology" .
 # 
 # 
 # #################################################################
@@ -8,6 +14,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -132,7 +141,7 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <https://w3id.org/oho#%23hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/oho#%23hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/oho#%23hasSource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/oho#ProjectCost> .
-<https://w3id.org/oho#%23hasSource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/oho#%23DataSource> .
+<https://w3id.org/oho#%23hasSource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/oho#DataSource> .
 # 
 # 
 # 
@@ -1522,6 +1531,10 @@ _:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb
 <https://w3id.org/oho#DPMforPod_Sub_Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/oho#DPMforPod_Sub_Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/oho#Podsub-assembly> .
 # 
+# https://w3id.org/oho#DataSource
+<https://w3id.org/oho#DataSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/oho#DataSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect." .
+# 
 # https://w3id.org/oho#EnergySystem
 <https://w3id.org/oho#EnergySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -1562,10 +1575,6 @@ _:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb
 # https://w3id.org/oho#ValueAdded
 <https://w3id.org/oho#ValueAdded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/oho#ValueAdded> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/Activity> .
-# 
-# https://w3id.org/oho#%23DataSource
-<https://w3id.org/oho#%23DataSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/oho#%23DataSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect." .
 # 
 # https://w3id.org/oho#%231.2mmTHK_CS
 <https://w3id.org/oho#%231.2mmTHK_CS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
