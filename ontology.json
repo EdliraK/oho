@@ -1,1400 +1,5 @@
 [ {
   "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "150"
-    }, {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "200"
-    }, {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "50"
-    }, {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "6"
-    }, {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "80"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid102",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#y"
-    }, {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#c"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
-  } ]
-}, {
-  "@id" : "_:genid107",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#c"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid109",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#y1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPanelFrameSubAssemblyCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid11",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/oho#Product"
-  } ]
-}, {
-  "@id" : "_:genid110",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Directly procured labour for SA1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-A5-SA1-Labour"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid133"
-    }, {
-      "@id" : "_:genid131"
-    }, {
-      "@id" : "_:genid126"
-    }, {
-      "@id" : "_:genid121"
-    }, {
-      "@id" : "_:genid119"
-    }, {
-      "@id" : "_:genid114"
-    }, {
-      "@id" : "_:genid112"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid135"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid112",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#lr"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasLabourRate"
-  } ]
-}, {
-  "@id" : "_:genid114",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#u"
-    }, {
-      "@id" : "https://w3id.org/oho#f"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid119",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#n"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasNoOfHousesBatch"
-  } ]
-}, {
-  "@id" : "_:genid121",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#y"
-    }, {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#lr"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid126",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#_y"
-    }, {
-      "@id" : "https://w3id.org/oho#n"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid13",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#Component"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"
-  } ]
-}, {
-  "@id" : "_:genid131",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#u"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasLabourContent"
-  } ]
-}, {
-  "@id" : "_:genid133",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#f"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPeriodOfProduction"
-  } ]
-}, {
-  "@id" : "_:genid135",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid136",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Estimated Cost for Facilities and Utilities per No. of  house Type 1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-A5-SA1-Facilities"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid152"
-    }, {
-      "@id" : "_:genid150"
-    }, {
-      "@id" : "_:genid145"
-    }, {
-      "@id" : "_:genid143"
-    }, {
-      "@id" : "_:genid138"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid154"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid138",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#n"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid143",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#n"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasNoOfHousesBatchFacilities"
-  } ]
-}, {
-  "@id" : "_:genid145",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#u"
-    }, {
-      "@id" : "https://w3id.org/oho#f"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid15",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Calculate Total Direct Material Cost"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid19"
-    }, {
-      "@id" : "_:genid17"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid24"
-    }, {
-      "@id" : "_:genid21"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid150",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#u"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCost"
-  } ]
-}, {
-  "@id" : "_:genid152",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#f"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPeriodOfProductionFacilities"
-  } ]
-}, {
-  "@id" : "_:genid154",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid155",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "C1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid164"
-    }, {
-      "@id" : "_:genid162"
-    }, {
-      "@id" : "_:genid157"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid166"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid157",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid162",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedBusinessOperationCostPP"
-  } ]
-}, {
-  "@id" : "_:genid164",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#NoOfHousesPerProject"
-  } ]
-}, {
-  "@id" : "_:genid166",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasBussinesOperationCostC1"
-  } ]
-}, {
-  "@id" : "_:genid167",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "C2 Eq. 3"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C2"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid176"
-    }, {
-      "@id" : "_:genid174"
-    }, {
-      "@id" : "_:genid169"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid178"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid169",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid17",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectMaterialCost"
-  } ]
-}, {
-  "@id" : "_:genid174",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasTotalAssignedIndividualConsultantCostPerProduct"
-  } ]
-}, {
-  "@id" : "_:genid176",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasNoAnticipatedNB"
-  } ]
-}, {
-  "@id" : "_:genid178",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDesignEngineeringCostC2"
-  } ]
-}, {
-  "@id" : "_:genid179",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "C4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C4"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid195"
-    }, {
-      "@id" : "_:genid190"
-    }, {
-      "@id" : "_:genid185"
-    }, {
-      "@id" : "_:genid183"
-    }, {
-      "@id" : "_:genid181"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid197"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid181",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasNoOfJourneyPerHouse"
-  } ]
-}, {
-  "@id" : "_:genid183",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#l"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDistancePerJourney"
-  } ]
-}, {
-  "@id" : "_:genid185",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#_z"
-    }, {
-      "@id" : "https://w3id.org/oho#e"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid19",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/oho#WallPanel"
-  } ]
-}, {
-  "@id" : "_:genid190",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#_z"
-    }, {
-      "@id" : "https://w3id.org/oho#m"
-    }, {
-      "@id" : "https://w3id.org/oho#l"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid195",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedCostPerDistance"
-  } ]
-}, {
-  "@id" : "_:genid197",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasTransportationCostC4"
-  } ]
-}, {
-  "@id" : "_:genid198",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Calculate Total Direct Material Cost"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Q1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid202"
-    }, {
-      "@id" : "_:genid200"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid207"
-    }, {
-      "@id" : "_:genid204"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid200",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/oho#WallPanel"
-  } ]
-}, {
-  "@id" : "_:genid202",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectMaterialCost"
-  } ]
-}, {
-  "@id" : "_:genid204",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum"
-  } ]
-}, {
-  "@id" : "_:genid207",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"
-  } ]
-}, {
-  "@id" : "_:genid209",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC5-SA1-Plant"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid229"
-    }, {
-      "@id" : "_:genid227"
-    }, {
-      "@id" : "_:genid222"
-    }, {
-      "@id" : "_:genid220"
-    }, {
-      "@id" : "_:genid215"
-    }, {
-      "@id" : "_:genid213"
-    }, {
-      "@id" : "_:genid211"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid234"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#m"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum"
-  } ]
-}, {
-  "@id" : "_:genid211",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#n"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasNoOfHousesPerBatch"
-  } ]
-}, {
-  "@id" : "_:genid213",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#u"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedPlantEquipmentCost"
-  } ]
-}, {
-  "@id" : "_:genid215",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#y"
-    }, {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#lr"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid220",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#lr"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPeriodofProduction"
-  } ]
-}, {
-  "@id" : "_:genid222",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#_y"
-    }, {
-      "@id" : "https://w3id.org/oho#n"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid227",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#f"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasLifePlantEquipment"
-  } ]
-}, {
-  "@id" : "_:genid229",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#_r"
-    }, {
-      "@id" : "https://w3id.org/oho#u"
-    }, {
-      "@id" : "https://w3id.org/oho#f"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid234",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid235",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "AC3"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC3"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid241"
-    }, {
-      "@id" : "_:genid239"
-    }, {
-      "@id" : "_:genid237"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid246"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid237",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#NoOfHousesPerProjectAC"
-  } ]
-}, {
-  "@id" : "_:genid239",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedTotalProcurementInventoryCost"
-  } ]
-}, {
-  "@id" : "_:genid24",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#p"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"
-  } ]
-}, {
-  "@id" : "_:genid241",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid246",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasProcurementInventoryCostAC3"
-  } ]
-}, {
-  "@id" : "_:genid247",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Estimated Cost for Onsite Production per No. of  house Type 1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C5"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid253"
-    }, {
-      "@id" : "_:genid251"
-    }, {
-      "@id" : "_:genid249"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid258"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid249",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasOnsiteWorksCost"
-  } ]
-}, {
-  "@id" : "_:genid251",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasOnsiteSupportCost"
-  } ]
-}, {
-  "@id" : "_:genid253",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#a"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
-  } ]
-}, {
-  "@id" : "_:genid258",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasOnsiteCostC5"
-  } ]
-}, {
-  "@id" : "_:genid259",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Directly procured materials for Panel Frame Sub-Assembly"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC5-SA1-Materials"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid265"
-    }, {
-      "@id" : "_:genid263"
-    }, {
-      "@id" : "_:genid261"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid270"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid26",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Estimated Cost for In Use cost Eq. 16"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C6"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid33"
-    }, {
-      "@id" : "_:genid28"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid35"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid261",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasMaterialUnitRateSA1"
-  } ]
-}, {
-  "@id" : "_:genid263",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#l"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasMaterialQuantitySA1"
-  } ]
-}, {
-  "@id" : "_:genid265",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#z"
-    }, {
-      "@id" : "https://w3id.org/oho#m"
-    }, {
-      "@id" : "https://w3id.org/oho#l"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#multiply"
-  } ]
-}, {
-  "@id" : "_:genid270",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#z"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid28",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#a"
-    }, {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "60"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
-  } ]
-}, {
-  "@id" : "_:genid33",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasEnergyCostPerAnnum"
-  } ]
-}, {
-  "@id" : "_:genid35",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasInUseCostC6"
-  } ]
-}, {
-  "@id" : "_:genid36",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "AC1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid45"
-    }, {
-      "@id" : "_:genid40"
-    }, {
-      "@id" : "_:genid38"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid47"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid38",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#NoOfHousesPerProjectAC"
-  } ]
-}, {
-  "@id" : "_:genid40",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid45",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedTotalCustomerRelationsCostPP"
-  } ]
-}, {
-  "@id" : "_:genid47",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasCostumerRelationCostAC1"
-  } ]
-}, {
-  "@id" : "_:genid48",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "AC4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC4"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid57"
-    }, {
-      "@id" : "_:genid52"
-    }, {
-      "@id" : "_:genid50"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid59"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid50",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#NoOfHousesPerProjectAC"
-  } ]
-}, {
-  "@id" : "_:genid52",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid57",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedTotalFactoryAdministrationCost"
-  } ]
-}, {
-  "@id" : "_:genid59",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasFactoryAdministrationCostAC4"
-  } ]
-}, {
-  "@id" : "_:genid60",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "AC2"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC2"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid69"
-    }, {
-      "@id" : "_:genid64"
-    }, {
-      "@id" : "_:genid62"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid71"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid62",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#h"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#NoOfHousesPerProjectAC"
-  } ]
-}, {
-  "@id" : "_:genid64",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#r"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    }, {
-      "@id" : "https://w3id.org/oho#h"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#divide"
-  } ]
-}, {
-  "@id" : "_:genid69",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedTotalPlanningSchedulingCost"
-  } ]
-}, {
-  "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1408,170 +13,18 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid11"
+      "@id" : "_:genid5"
     }, {
-      "@id" : "_:genid9"
+      "@id" : "_:genid3"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid13"
+      "@id" : "_:genid7"
     } ]
   } ]
 }, {
-  "@id" : "_:genid71",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPlanningSchedulingCostAC2"
-  } ]
-}, {
-  "@id" : "_:genid72",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Module Assembly Cost"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C5-AC1-SA2"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid81"
-    }, {
-      "@id" : "_:genid76"
-    }, {
-      "@id" : "_:genid74"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid83"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid74",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCost"
-  } ]
-}, {
-  "@id" : "_:genid76",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#a"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
-  } ]
-}, {
-  "@id" : "_:genid81",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCost"
-  } ]
-}, {
-  "@id" : "_:genid83",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasModuleAssemblyCost"
-  } ]
-}, {
-  "@id" : "_:genid84",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Panel Frame Sub-Assembly Cost"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "C3-AC5-SA1"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid107"
-    }, {
-      "@id" : "_:genid102"
-    }, {
-      "@id" : "_:genid97"
-    }, {
-      "@id" : "_:genid95"
-    }, {
-      "@id" : "_:genid93"
-    }, {
-      "@id" : "_:genid88"
-    }, {
-      "@id" : "_:genid86"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid109"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid86",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#b"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid88",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
-  "http://www.w3.org/2003/11/swrl#arguments" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/oho#y1"
-    }, {
-      "@id" : "https://w3id.org/oho#y"
-    }, {
-      "@id" : "https://w3id.org/oho#d"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
-  } ]
-}, {
-  "@id" : "_:genid9",
+  "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/oho#p"
@@ -1583,43 +36,24 @@
     "@id" : "https://w3id.org/oho#hasComponentPart"
   } ]
 }, {
-  "@id" : "_:genid93",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/oho#p"
   } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1"
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/oho#Product"
   } ]
 }, {
-  "@id" : "_:genid95",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/oho#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/oho#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1"
-  } ]
-}, {
-  "@id" : "_:genid97",
+  "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
   "http://www.w3.org/2003/11/swrl#arguments" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/oho#x"
-    }, {
-      "@id" : "https://w3id.org/oho#a"
-    }, {
-      "@id" : "https://w3id.org/oho#b"
+      "@id" : "https://w3id.org/oho#Component"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#builtin" : [ {
-    "@id" : "http://www.w3.org/2003/11/swrlb#add"
+    "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/contributor",
@@ -1637,20 +71,8 @@
   "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
 }, {
-  "@id" : "http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
   "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#add",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#divide",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#multiply",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
 }, {
   "@id" : "https://w3id.org/oho#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -1667,142 +89,51 @@
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@value" : "OHO: an Offsite Housing Ontology"
   } ],
-  "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "https://w3id.org/oho#/1.0.0"
-  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/oho#/1.0.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#1-20",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#C1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "7000"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#100-200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#C1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#150",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2959.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3038.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#21-100",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#C1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "5250"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#A",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "100"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#AC6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Adhesive",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Architect",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#AssignedFacilitiesAndUtilities150",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2073.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#AssignedFacilitiesAndUtilities200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1590.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#AssignedFacilitiesAndUtilities50",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5937.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#AssignedFacilitiesAndUtilities6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "48497.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#AssignedFacilitiesAndUtilities80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3798.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Band",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#Interface" ],
@@ -1816,10 +147,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1200.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#BathroomCabinet",
@@ -1832,20 +159,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1600.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Bathtub",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "960.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Battery",
@@ -1858,410 +177,181 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "16000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Bolts(TypeA)",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "856.8"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Bolts(TypeB)",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "252.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Bolts-A",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model Extraction"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "176.4"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Bolts-B",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model Extraction"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "840.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#BondEPDM",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BreatherMembrane",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1104.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BrickSlips",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "97.5"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#BronzeInUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "184762.98"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BussinesOperation150",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2959.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BussinesOperation200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3038.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BussinesOperation50",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#C1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2186.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BussinesOperation6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "16183.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#BussinesOperation80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3016.0"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#C2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#C3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#C4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#C5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1-SA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1-SA2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1-SA3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1-SA4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC1-SA5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC2-SA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C5-AC2-SA2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#C6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#CL_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 1"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CL_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 2"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CL_3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 3"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CL_4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 4"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CL_5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 5"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CL_6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Casual Labour with unique  ID number 6"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CO2Detector",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "200.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CPBoardScrewStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1996.8000000000004"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CandiwallBackingBoard",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "15456.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Carpenter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11520.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CementBoard",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "15456.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#CentralPodsAndPanelsProject",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Central Pods and Panels (Semi-automated line production for panels and manual assembled pods)"
-  } ],
-  "https://w3id.org/oho#hasDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasDistance" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20.0"
-  } ],
-  "https://w3id.org/oho#hasSemiDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasTerrace" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#CheckAlignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Clips",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5520.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model Extraction"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4920.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model Extraction"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "27552.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model Extraction"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8035.999999999999"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Component",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2003/11/swrl#Variable" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@value" : "Manufactured individual building element\r\nincluding prefabricated elements e.g. precast\r\nstaircases, refuse chutes, structural members\r\nsuch as columns, reinforcement cages etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/oho#Thing"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Customer_Relation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2000.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DataCable",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "273.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#DesignAndEngineering150",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "12973.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DesignAndEngineering200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "12861.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DesignAndEngineering50",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13235.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DesignAndEngineering6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13423.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DesignAndEngineering80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13123.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Design_and_Engineering",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Detached",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -2273,88 +363,40 @@
   } ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabour50",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "25618.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "23354.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourPanelised150",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "7285.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourPanelised200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6713.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourPanelised50",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8059.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourPanelised6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "840.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourPanelised80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "10332.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredLabourVolumatric80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#C1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "28097.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredMaterialCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "26760.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredMaterialPanelised",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6134.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredMaterialStick",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6004.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#DirectlyProcuredMaterialVolumetric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "30362.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Door",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -2366,10 +408,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "264.6"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Duct",
@@ -2379,30 +417,18 @@
   } ]
 }, {
   "@id" : "https://w3id.org/oho#E_Consult",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ElectricalInstallationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "800.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Electrician",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11520.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ElectricityCable",
@@ -2412,41 +438,25 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/oho#Component"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "344.40000000000003"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#EnergyAndFaultMonitoringRequired",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "400.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#EntranceDoor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#FixWindowAndDoorPods",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#FlatRoofWithSinglePlyMembrane",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5405.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Fork_Lift",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -2455,53 +465,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "144.00000000000003"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Gold",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "34520.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#GoldInUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "142788.85"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Guard",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/oho#HasSiteStaffAndLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA1"
-  } ]
 }, {
   "@id" : "https://w3id.org/oho#HatChannelsAndSupportRails",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6480.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#HeatDetector",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "200.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#HeatRecoveryUnit",
@@ -2514,38 +498,25 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "264.6"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8656.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20709.479999999996"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#HotWaterCylinderType",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6400.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#House",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/oho#Thing"
+  } ]
 }, {
   "@id" : "https://w3id.org/oho#House-A",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -2557,10 +528,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "710.4000000000001"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#InstallBreatherMembrane",
@@ -2576,53 +543,36 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#InsulationBoard",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11040.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#InsulationToExternalWall",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "907.2"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Interface",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/oho#Thing"
+  } ]
 }, {
   "@id" : "https://w3id.org/oho#JointTapeToCementBoard",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "184.00000000000003"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#JointTapeToInternalWalls",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "71.01599999999999"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#KicthenMixer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "480.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#KitchenCabinet",
@@ -2635,20 +585,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9600.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#KitchenSink",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "320.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#LSF_3BED_01_LHS",
@@ -2673,10 +615,6 @@
     "@id" : "https://w3id.org/oho#mmSS"
   }, {
     "@id" : "https://w3id.org/oho#mmStud"
-  } ],
-  "https://w3id.org/oho#hasWeight" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#LSF_3BED_01_RHS",
@@ -2812,10 +750,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4800.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#LightSwitch",
@@ -2828,10 +762,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "126.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#LightingCable",
@@ -2841,10 +771,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/oho#Component"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "352.8"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#LoadCPBoardOnFrame",
@@ -2857,86 +783,46 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#LoadingAndUnloading",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "107.65196074939807"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#MCProfitCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "16676.03"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#MCProfitPanelised",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "16857.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#MCProfitStick",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "15202.94"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#MVHR",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9600.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Maintenance_and_Service",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "42000.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ManualInstallation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "39936.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ManualReworkAndCPBoardLoadStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "998.4000000000002"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ManualReworkStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "355.20000000000005"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#MaterialDelivery",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasWaitingWaste" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#MeasuringAndCuttingCPBoard",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -2948,113 +834,46 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Modular_Production",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "49996.0"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#NoOfHousesPerProject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#NoOfHousesPerProjectAC",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Different from no. of houses per Project NoOfHousesPerProject"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#NutAndBoltFrame",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyRenderingCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "37268.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyRenderingPanelised",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "73310.51"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyRenderingStick",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "87225.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyRenderingVolumatric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "27484.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "91699.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "36108.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipPanelised",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "72151.11"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSplipVolumatric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "26325.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#OnsiteSubstructureAndExternalWall",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "34415.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Onsite_Support",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "7542.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Onsite_Work",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "15658.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Operational",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "10718.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PG_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -3066,74 +885,34 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PackagingAndProtection",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "195.6941565347004"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PanelCladdingsub-assembly",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11200.04816104884"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PanelFramesub-assembly",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "6698.943859995457"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PanelHeaters",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#PanelTurnoverAndToolingReturnStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Panel_Testing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "50.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Panelised",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PanelisedProject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasDistance" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20.0"
-  } ],
-  "https://w3id.org/oho#hasSemiDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasTerrace" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PendantLight",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -3145,10 +924,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "352.8"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Pipe",
@@ -3158,63 +933,31 @@
   } ]
 }, {
   "@id" : "https://w3id.org/oho#PitchedRoofWithClayTileCovering",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8010.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PitchedRoofWithPlasticTileCovering",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "9110.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PitchedRoofWithSlateTileCovering",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8010.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Planning_and_Scheduling",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PlantAndEquipment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2548.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PlantAndEquipmentCentralPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3130.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PlantAndEquipmentVolumetric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3130.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Plant_and_Equipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Plasterboard",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3709.4400000000005"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Platform",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -3223,10 +966,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11520.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Pod",
@@ -3242,80 +981,54 @@
   } ]
 }, {
   "@id" : "https://w3id.org/oho#PodFramesub-assembly",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5304.204370587974"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#PodLoadingAndUnloading",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "144.00000000000003"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Pod_Testing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "50.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Podsub-assembly",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "26087.43017842151"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ProcessCoordination",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Procurement_and_Inventory_Control",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Product",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/oho#Thing"
+  } ]
 }, {
   "@id" : "https://w3id.org/oho#Product-A",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#Product" ]
 }, {
   "@id" : "https://w3id.org/oho#Production",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/oho#Thing"
+  } ]
 }, {
   "@id" : "https://w3id.org/oho#Production_Engineering_Management_and_Support",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#QI_101",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Quality Inspector with unique  ID number 101"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#QI_102",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Quality Inspector with unique  ID number 102"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#QualityInspection",
@@ -3343,18 +1056,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "273.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Repair_and_Replacement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "90255.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ResourceAllocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -3366,10 +1071,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "355.20000000000005"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ReworkOnBonding",
@@ -3384,124 +1085,58 @@
   "@id" : "https://w3id.org/oho#ReworkOnFrames",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/oho#SA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#SA2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#SA3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#SA4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#SA5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
   "@id" : "https://w3id.org/oho#SSO_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with ID number 1"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 2"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 3"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 4"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 5"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 6"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 7"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 8"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SSO_9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Semi Skilled Operative with unique  ID number 9"
-  } ],
-  "https://w3id.org/oho#hasLabourHrRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "13.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SanitaryFitting",
@@ -3514,18 +1149,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#ScrewBracketForPod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1512.0000000000002"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#SedumGreenRoof",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "11750.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#SemiDetached",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -3537,37 +1164,21 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "640.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ShowerThermostaticMixer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "800.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SilverInUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "179870.86"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#SmokeDetector",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "200.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Socket",
@@ -3580,20 +1191,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "105.84"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SolarPV",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "32000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#SolarPanel",
@@ -3615,10 +1218,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "12000.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#StationA",
@@ -3628,37 +1227,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#StickProject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#int",
-    "@value" : "2"
-  } ],
-  "https://w3id.org/oho#hasDistance" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20.0"
-  } ],
-  "https://w3id.org/oho#hasSemiDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#int",
-    "@value" : "2"
-  } ],
-  "https://w3id.org/oho#hasTerrace" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Storage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "72.0375"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Structural_Engineer",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "500.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T10_Frame_transfer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -3676,20 +1251,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Task 12: Place internal frames not requiring finishing onto transport trolley"
-  } ],
-  "https://w3id.org/oho#hasDurationInMins" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "30.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T12_Transfer_to_Mech_Fixing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Task 12: Frame transfers into the mechanical fixing station"
-  } ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "8.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T13_CPBoard_Fixing",
@@ -3711,76 +1278,40 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "T15: Cut door and window openings in panels"
-  } ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.03"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T16_Fix_Pods",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "T16: Fix door and window pods to the openings in the panels"
-  } ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.083"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T17_Bond_EPDM",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "T17: Bond EPDM to the openings"
-  } ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.1"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T18_Install_Breather_Membrane",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.1"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T19_Fix_SubFrame",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.083"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T1_Deliver_Pallets",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Task 1 - Deliver Pallets to loading area"
-  } ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.06"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T20_Install_CandiWall_System",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.166"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T21_Install_Brick_Cladding",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.25"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T22_Install_Window_and_Door",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.2"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T23_Transfer_to_InternalFitOut",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -3804,11 +1335,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T2_Select_and_Load_Beam",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasProcessTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.03"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#T30_Checking_and_Transfer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -3853,10 +1380,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Task 3: Hold beam in place with clamps"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "300.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#T4_Transfer_Beam",
@@ -3899,44 +1422,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1420.8000000000002"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#TEKScrewStation2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1420.8000000000002"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#TS1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#TS2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#TS3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#TS4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC6"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Tape",
@@ -3949,10 +1440,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "480.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#TeamBriefing",
@@ -3962,10 +1449,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3200.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Terrace",
@@ -3974,53 +1457,32 @@
     "@id" : "https://w3id.org/oho#House"
   } ]
 }, {
+  "@id" : "https://w3id.org/oho#Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "https://w3id.org/oho#Timber",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1560.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#TimberStuds",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "480.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#ToolingSetUpStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1996.8000000000004"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#TransportationOP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "330.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#TransportationPanelised",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "708.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#TransportationStick",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "236.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#Trolley",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -4032,91 +1494,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type 1  House: Semi-detached; Pod frame + Infilled panel; automated factory production; a particular location and particular selection of roof and building service system choices)"
-  } ],
-  "https://w3id.org/oho#NoOfHousesPerProject" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "200.0"
-  } ],
-  "https://w3id.org/oho#NoOfHousesPerProjectAC" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "45.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedBusinessOperationCostPP" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20000.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "360.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedTotalCustomerRelationsCostPP" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "345.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedTotalFactoryAdministrationCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "456.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedTotalPlanningSchedulingCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "500.0"
-  } ],
-  "https://w3id.org/oho#hasAssignedTotalProcurementInventoryCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4342.0"
-  } ],
-  "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "345.0"
-  } ],
-  "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "500.0"
-  } ],
-  "https://w3id.org/oho#hasLabourContent" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "300.0"
-  } ],
-  "https://w3id.org/oho#hasLabourRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "35.0"
-  } ],
-  "https://w3id.org/oho#hasNoAnticipatedNB" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "34.0"
-  } ],
-  "https://w3id.org/oho#hasNoOfHousesBatch" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "50.0"
-  } ],
-  "https://w3id.org/oho#hasPeriodOfProduction" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "12.0"
-  } ],
-  "https://w3id.org/oho#hasPlantEquipmentCostSA1" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "345.0"
-  } ],
-  "https://w3id.org/oho#hasTotalAssignedIndividualConsultantCostPerProduct" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "564.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#UPVC",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1497.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#UnloadStation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Productivity datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#VisualInspectionOnBonding",
@@ -4129,22 +1515,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Volumetric (All Pods) (Semi-automated line production for panels and manual assembled pods)"
-  } ],
-  "https://w3id.org/oho#hasDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasDistance" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "20.0"
-  } ],
-  "https://w3id.org/oho#hasSemiDetached" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.0"
-  } ],
-  "https://w3id.org/oho#hasTerrace" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "4.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#Wall-1",
@@ -4160,10 +1530,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "Quantity conversation factor datasheet"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "800.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#WhiteGood",
@@ -4179,53 +1545,19 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "BIM Model"
-  } ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "22080.0"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#WithBricklSlip",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "14949.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#WithRendering",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "7658.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#WithWeatherboard",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "12779.0"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#_r",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#_y",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#_z",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#a",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#b",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#brick-slipSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/oho#c",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
 }, {
   "@id" : "https://w3id.org/oho#composedOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
@@ -4240,266 +1572,13 @@
     "@id" : "https://w3id.org/oho#Product"
   } ]
 }, {
-  "@id" : "https://w3id.org/oho#d",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
   "@id" : "https://w3id.org/oho#designcosttest",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5000000.0"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#e",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#f",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#h",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasActivityCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasActivityCostFromStart",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasArea",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedBusinessOperationCostPP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedCostPerDistance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Per month"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedPlantEquipmentCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedSitePreliminariesCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedSiteStaffAndLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedTotalCustomerRelationsCostPP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Assigned total cost of customer relations per project"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedTotalFactoryAdministrationCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedTotalPlanningSchedulingCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasAssignedTotalProcurementInventoryCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasBatch",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasBussinesOperationCostC1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C1"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#hasComponentPart",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/oho#Product"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasCostFromStart",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasCostumerRelationCostAC1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasCount",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDecorationCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDepreciationValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDesignEngineeringCostC2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDetached",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/oho#House"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDiameter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDimensions"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDimensions",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDirectLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDirectMaterialCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Eq. 7"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Directly procured labour (Ref. Eq. 7)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Directly procured materials (Ref. Eq. 6)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDistance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Distance between factory and site. Site is the location estimated for the project implemtation. The factory postcode is fixed and the site postcode is given from the user of the estimation tool."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDistancePerJourney",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasDurationInMins",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasEnergyCostPerAnnum",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasFactoryAdministrationCostAC4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasHeight",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDimensions"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasInUseCostC6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasIndirectLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasOverheadCost"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasIndirectMaterialCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasOverheadCost"
   } ]
 }, {
   "@id" : "https://w3id.org/oho#hasInterface",
@@ -4516,474 +1595,6 @@
     "@id" : "https://w3id.org/oho#isInterfaceOf"
   } ]
 }, {
-  "@id" : "https://w3id.org/oho#hasLCCPerNo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Estimated Life Cycle Cost per No. of Type 1  house"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLabourContent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLabourCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLabourHrRate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasUnitRate"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLabourQuantity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasQuantity"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLabourRate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLength",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDimensions"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasLifePlantEquipment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaterialCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaterialQuantity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasQuantity"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaterialQuantitySA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaterialUnitRate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasUnitRate"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaterialUnitRateSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasMaxWeightCapacity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasModularProductionCostAC5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Eq. 5) Estimated Cost for Modular Production per No. of Type 1  house (〖AC〗_5):"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasModuleAssemblyCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoAnticipatedNB",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Anticipated no.of houses per product type per batch (NB)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesBatch",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesBatchFacilities",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesInProjectSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesInProjectSA2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesPPTS1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesPPTS2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesPPTS3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesPPTS4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfHousesPerBatch",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfJourneyPerHouse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasNoOfOperatives",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOffsiteConstructionCostC3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOnsiteCostC5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOnsiteSupportCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOnsiteWorksCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOpeningArea",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasArea"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasOverheadCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPackagingProtectionCostSA5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA5"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPanelCladdingSubAssemblyCostSA2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPanelFrameSubAssemblyCostSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Sub-activity (SA)\tCost Calculation\r\nPanel frame sub-assembly\tDirectly procured materials (Ref. Eq. 6) + Directly procured labour (Ref. Eq. 7) + Plant and equipment (Ref. Eq. 8) + Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPeriodOfProduction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPeriodOfProductionFacilities",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPeriodofProduction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPlanningSchedulingCostAC2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Customer Relations\t(Assigned total cost of customer relations per project)/(No.of houses in the Project)\r\n(Project dependent – i.e. the cost is based on the project)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPlantDayRate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasUnitRate"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPlantDepreciationCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasOverheadCost"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPlantEquipmentCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Eq. 8"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPlantEquipmentCostSA1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Plant and equipment (Ref. Eq. 8)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPodFrameSubAssemblyCostSA3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasPodSubAssembyCostSA4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#SA4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasProcessTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasProcurementInventoryCostAC3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Planning and scheduling\t(Assigned total cost of planning and scheduling per project)/(No.of houses in the Project) (Project dependent)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasProductionEngineeringCostTS1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasProductionEngineeringManagementSupportCostAC6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#AC6"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasProductionManagementCostTS2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasQAQCCostTS3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasQuantity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasRentCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasOverheadCost"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasRoofCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSemiDetached",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/oho#House"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSitePreliminariesCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC2-SA2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSitePreparationCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSubContractorCostSA3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA3"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSubContractorCostSA4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Eq. 10"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C5-AC1-SA4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasSurfaceArea",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasArea"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasTerrace",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/oho#House"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasThickness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDimensions"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasToolMaintenanceCostTS4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#TS4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasToolQuantity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasQuantity"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasTotalAssignedIndividualConsultantCostPerProduct",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The total of Assigned Individual consultant and testing cost for  house development per product type"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C2"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasTransportationCostC4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#C4"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasUnitRate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasUsefulLife",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasWaitingWaste",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasWaste"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasWallArea",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasArea"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasWaste",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#hasWeight",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#hasWidth",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/oho#hasDimensions"
-  } ]
-}, {
   "@id" : "https://w3id.org/oho#isInterfaceOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -4995,152 +1606,26 @@
     "@id" : "https://w3id.org/oho#Product"
   } ]
 }, {
-  "@id" : "https://w3id.org/oho#l",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#latitude",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#longitude",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "https://w3id.org/oho#lr",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#m",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
   "@id" : "https://w3id.org/oho#mmBT",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "2"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.0225"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.07"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.36"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "3.123"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmCS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "12"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.3"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmFS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "4"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.8"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmHT",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "2"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.36"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5.2155"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "8"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.7"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmSS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "2"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.7"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#mmStud",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasCount" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "20"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "4"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "6"
-  } ],
-  "https://w3id.org/oho#hasLength" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.6"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.925"
-  }, {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "2.7"
-  } ],
-  "https://w3id.org/oho#hasMaterialUnitRate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "24.99"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#n",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#p",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
@@ -5154,35 +1639,14 @@
     "@id" : "https://w3id.org/oho#Production"
   } ]
 }, {
-  "@id" : "https://w3id.org/oho#r",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
   "@id" : "https://w3id.org/oho#test",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#Interface" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#Interface" ]
 }, {
   "@id" : "https://w3id.org/oho#test1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#House" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/oho#House" ]
 }, {
   "@id" : "https://w3id.org/oho#test3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "1.0"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/oho#type-1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
@@ -5193,25 +1657,6 @@
   "@id" : "https://w3id.org/oho#type-3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/oho#u",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#x",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
   "@id" : "https://w3id.org/oho#xProjectCostEstimation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://w3id.org/oho#hasActivityCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "0.0"
-  } ]
-}, {
-  "@id" : "https://w3id.org/oho#y",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#y1",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
-}, {
-  "@id" : "https://w3id.org/oho#z",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 } ]

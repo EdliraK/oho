@@ -8,7 +8,6 @@
 
 <https://w3id.org/oho#> rdf:type owl:Ontology ;
                          owl:versionIRI <https://w3id.org/oho#/1.0.0> ;
-                         owl:imports <https://w3id.org/oho#/1.0.0> ;
                          <http://purl.org/dc/elements/1.1/contributor> "Abdel-Rahman Tawil" ,
                                                                        "Franco Cheung" ,
                                                                        "Kudirat Ayinla" ;
@@ -81,781 +80,6 @@
 
 
 #################################################################
-#    Data properties
-#################################################################
-
-###  https://w3id.org/oho#AC1
-:AC1 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#AC2
-:AC2 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#AC3
-:AC3 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#AC4
-:AC4 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#AC5
-:AC5 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#AC6
-:AC6 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#C1
-:C1 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#C2
-:C2 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#C3
-:C3 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#C4
-:C4 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#C5
-:C5 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#C5-AC1
-:C5-AC1 rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :C5 .
-
-
-###  https://w3id.org/oho#C5-AC1-SA1
-:C5-AC1-SA1 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#C5-AC1-SA2
-:C5-AC1-SA2 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#C5-AC1-SA3
-:C5-AC1-SA3 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#C5-AC1-SA4
-:C5-AC1-SA4 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#C5-AC1-SA5
-:C5-AC1-SA5 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#C5-AC2
-:C5-AC2 rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :C5 .
-
-
-###  https://w3id.org/oho#C5-AC2-SA1
-:C5-AC2-SA1 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC2 .
-
-
-###  https://w3id.org/oho#C5-AC2-SA2
-:C5-AC2-SA2 rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :C5-AC2 .
-
-
-###  https://w3id.org/oho#C6
-:C6 rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#HasSiteStaffAndLabourCost
-:HasSiteStaffAndLabourCost rdf:type owl:DatatypeProperty ;
-                           rdfs:subPropertyOf :C5-AC2-SA1 .
-
-
-###  https://w3id.org/oho#NoOfHousesPerProject
-:NoOfHousesPerProject rdf:type owl:DatatypeProperty ;
-                      rdfs:subPropertyOf :C1 .
-
-
-###  https://w3id.org/oho#NoOfHousesPerProjectAC
-:NoOfHousesPerProjectAC rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf :C3 ;
-                        rdfs:comment "Different from no. of houses per Project NoOfHousesPerProject" .
-
-
-###  https://w3id.org/oho#SA1
-:SA1 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC5 .
-
-
-###  https://w3id.org/oho#SA2
-:SA2 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC5 .
-
-
-###  https://w3id.org/oho#SA3
-:SA3 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC5 .
-
-
-###  https://w3id.org/oho#SA4
-:SA4 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC5 .
-
-
-###  https://w3id.org/oho#SA5
-:SA5 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC5 .
-
-
-###  https://w3id.org/oho#TS1
-:TS1 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC6 .
-
-
-###  https://w3id.org/oho#TS2
-:TS2 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC6 .
-
-
-###  https://w3id.org/oho#TS3
-:TS3 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC6 .
-
-
-###  https://w3id.org/oho#TS4
-:TS4 rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf :AC6 .
-
-
-###  https://w3id.org/oho#hasActivityCost
-:hasActivityCost rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasActivityCostFromStart
-:hasActivityCostFromStart rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasArea
-:hasArea rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasAssignedBusinessOperationCostPP
-:hasAssignedBusinessOperationCostPP rdf:type owl:DatatypeProperty ;
-                                    rdfs:subPropertyOf :C1 .
-
-
-###  https://w3id.org/oho#hasAssignedCostPerDistance
-:hasAssignedCostPerDistance rdf:type owl:DatatypeProperty ;
-                            rdfs:subPropertyOf :C4 .
-
-
-###  https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCost
-:hasAssignedFacilitiesUtilitiesCost rdf:type owl:DatatypeProperty ;
-                                    rdfs:subPropertyOf :hasAssignedFacilitiesUtilitiesCostSA1 ;
-                                    rdfs:comment "Per month" .
-
-
-###  https://w3id.org/oho#hasAssignedFacilitiesUtilitiesCostSA1
-:hasAssignedFacilitiesUtilitiesCostSA1 rdf:type owl:DatatypeProperty ;
-                                       rdfs:subPropertyOf :SA1 ;
-                                       rdfs:comment "Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)" .
-
-
-###  https://w3id.org/oho#hasAssignedPlantEquipmentCost
-:hasAssignedPlantEquipmentCost rdf:type owl:DatatypeProperty ;
-                               rdfs:subPropertyOf :hasPlantEquipmentCostSA1 .
-
-
-###  https://w3id.org/oho#hasAssignedSitePreliminariesCost
-:hasAssignedSitePreliminariesCost rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf :C5-AC2-SA2 .
-
-
-###  https://w3id.org/oho#hasAssignedSiteStaffAndLabourCost
-:hasAssignedSiteStaffAndLabourCost rdf:type owl:DatatypeProperty ;
-                                   rdfs:subPropertyOf :C5-AC2-SA1 .
-
-
-###  https://w3id.org/oho#hasAssignedTotalCustomerRelationsCostPP
-:hasAssignedTotalCustomerRelationsCostPP rdf:type owl:DatatypeProperty ;
-                                         rdfs:subPropertyOf :AC1 ;
-                                         rdfs:comment "Assigned total cost of customer relations per project" .
-
-
-###  https://w3id.org/oho#hasAssignedTotalFactoryAdministrationCost
-:hasAssignedTotalFactoryAdministrationCost rdf:type owl:DatatypeProperty ;
-                                           rdfs:subPropertyOf :AC4 .
-
-
-###  https://w3id.org/oho#hasAssignedTotalPlanningSchedulingCost
-:hasAssignedTotalPlanningSchedulingCost rdf:type owl:DatatypeProperty ;
-                                        rdfs:subPropertyOf :AC2 .
-
-
-###  https://w3id.org/oho#hasAssignedTotalProcurementInventoryCost
-:hasAssignedTotalProcurementInventoryCost rdf:type owl:DatatypeProperty ;
-                                          rdfs:subPropertyOf :AC3 .
-
-
-###  https://w3id.org/oho#hasBatch
-:hasBatch rdf:type owl:DatatypeProperty ,
-                   owl:FunctionalProperty ;
-          rdfs:range [ rdf:type rdfs:Datatype ;
-                       owl:oneOf [ rdf:type rdf:List ;
-                                   rdf:first 150 ;
-                                   rdf:rest [ rdf:type rdf:List ;
-                                              rdf:first 200 ;
-                                              rdf:rest [ rdf:type rdf:List ;
-                                                         rdf:first 50 ;
-                                                         rdf:rest [ rdf:type rdf:List ;
-                                                                    rdf:first 6 ;
-                                                                    rdf:rest [ rdf:type rdf:List ;
-                                                                               rdf:first 80 ;
-                                                                               rdf:rest rdf:nil
-                                                                             ]
-                                                                  ]
-                                                       ]
-                                            ]
-                                 ]
-                     ] .
-
-
-###  https://w3id.org/oho#hasBussinesOperationCostC1
-:hasBussinesOperationCostC1 rdf:type owl:DatatypeProperty ;
-                            rdfs:subPropertyOf :C1 .
-
-
-###  https://w3id.org/oho#hasCostFromStart
-:hasCostFromStart rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasCostumerRelationCostAC1
-:hasCostumerRelationCostAC1 rdf:type owl:DatatypeProperty ;
-                            rdfs:subPropertyOf :AC1 .
-
-
-###  https://w3id.org/oho#hasCount
-:hasCount rdf:type owl:DatatypeProperty ;
-          rdfs:range xsd:integer .
-
-
-###  https://w3id.org/oho#hasDecorationCost
-:hasDecorationCost rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf :C5-AC1-SA3 .
-
-
-###  https://w3id.org/oho#hasDepreciationValue
-:hasDepreciationValue rdf:type owl:DatatypeProperty ,
-                               owl:FunctionalProperty .
-
-
-###  https://w3id.org/oho#hasDesignEngineeringCostC2
-:hasDesignEngineeringCostC2 rdf:type owl:DatatypeProperty ;
-                            rdfs:subPropertyOf :C2 .
-
-
-###  https://w3id.org/oho#hasDetached
-:hasDetached rdf:type owl:DatatypeProperty ,
-                      owl:FunctionalProperty ;
-             rdfs:domain :House .
-
-
-###  https://w3id.org/oho#hasDiameter
-:hasDiameter rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :hasDimensions .
-
-
-###  https://w3id.org/oho#hasDimensions
-:hasDimensions rdf:type owl:DatatypeProperty ;
-               rdfs:range xsd:double .
-
-
-###  https://w3id.org/oho#hasDirectLabourCost
-:hasDirectLabourCost rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf owl:topDataProperty .
-
-
-###  https://w3id.org/oho#hasDirectMaterialCost
-:hasDirectMaterialCost rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf owl:topDataProperty .
-
-
-###  https://w3id.org/oho#hasDirectlyProcuredLabourCost
-:hasDirectlyProcuredLabourCost rdf:type owl:DatatypeProperty ;
-                               rdfs:subPropertyOf :C5-AC1-SA2 ;
-                               rdfs:comment "Eq. 7" .
-
-
-###  https://w3id.org/oho#hasDirectlyProcuredLabourCostSA1
-:hasDirectlyProcuredLabourCostSA1 rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf :SA1 ;
-                                  rdfs:comment "Directly procured labour (Ref. Eq. 7)" .
-
-
-###  https://w3id.org/oho#hasDirectlyProcuredMaterialsCostSA1
-:hasDirectlyProcuredMaterialsCostSA1 rdf:type owl:DatatypeProperty ;
-                                     rdfs:subPropertyOf :SA1 ;
-                                     rdfs:comment "Directly procured materials (Ref. Eq. 6)" .
-
-
-###  https://w3id.org/oho#hasDistance
-:hasDistance rdf:type owl:DatatypeProperty ,
-                      owl:FunctionalProperty ;
-             rdfs:range xsd:double ;
-             rdfs:comment "Distance between factory and site. Site is the location estimated for the project implemtation. The factory postcode is fixed and the site postcode is given from the user of the estimation tool." .
-
-
-###  https://w3id.org/oho#hasDistancePerJourney
-:hasDistancePerJourney rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :C4 .
-
-
-###  https://w3id.org/oho#hasDurationInMins
-:hasDurationInMins rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasEnergyCostPerAnnum
-:hasEnergyCostPerAnnum rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :C6 .
-
-
-###  https://w3id.org/oho#hasFactoryAdministrationCostAC4
-:hasFactoryAdministrationCostAC4 rdf:type owl:DatatypeProperty ;
-                                 rdfs:subPropertyOf :AC4 .
-
-
-###  https://w3id.org/oho#hasHeight
-:hasHeight rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :hasDimensions .
-
-
-###  https://w3id.org/oho#hasInUseCostC6
-:hasInUseCostC6 rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf :C6 .
-
-
-###  https://w3id.org/oho#hasIndirectLabourCost
-:hasIndirectLabourCost rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :hasOverheadCost .
-
-
-###  https://w3id.org/oho#hasIndirectMaterialCost
-:hasIndirectMaterialCost rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf :hasOverheadCost .
-
-
-###  https://w3id.org/oho#hasLCCPerNo
-:hasLCCPerNo rdf:type owl:DatatypeProperty ;
-             rdfs:comment "Estimated Life Cycle Cost per No. of Type 1  house" .
-
-
-###  https://w3id.org/oho#hasLabourContent
-:hasLabourContent rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf :hasDirectlyProcuredLabourCostSA1 .
-
-
-###  https://w3id.org/oho#hasLabourCost
-:hasLabourCost rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf owl:topDataProperty .
-
-
-###  https://w3id.org/oho#hasLabourHrRate
-:hasLabourHrRate rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasUnitRate .
-
-
-###  https://w3id.org/oho#hasLabourQuantity
-:hasLabourQuantity rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf :hasQuantity ;
-                   rdfs:range xsd:integer .
-
-
-###  https://w3id.org/oho#hasLabourRate
-:hasLabourRate rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf :hasDirectlyProcuredLabourCostSA1 .
-
-
-###  https://w3id.org/oho#hasLength
-:hasLength rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :hasDimensions .
-
-
-###  https://w3id.org/oho#hasLifePlantEquipment
-:hasLifePlantEquipment rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :hasPlantEquipmentCostSA1 .
-
-
-###  https://w3id.org/oho#hasMaterialCost
-:hasMaterialCost rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty .
-
-
-###  https://w3id.org/oho#hasMaterialQuantity
-:hasMaterialQuantity rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf :hasQuantity ;
-                     rdfs:range xsd:double .
-
-
-###  https://w3id.org/oho#hasMaterialQuantitySA1
-:hasMaterialQuantitySA1 rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf :hasDirectlyProcuredMaterialsCostSA1 .
-
-
-###  https://w3id.org/oho#hasMaterialUnitRate
-:hasMaterialUnitRate rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf :hasUnitRate .
-
-
-###  https://w3id.org/oho#hasMaterialUnitRateSA1
-:hasMaterialUnitRateSA1 rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf :hasDirectlyProcuredMaterialsCostSA1 .
-
-
-###  https://w3id.org/oho#hasMaxWeightCapacity
-:hasMaxWeightCapacity rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasModularProductionCostAC5
-:hasModularProductionCostAC5 rdf:type owl:DatatypeProperty ;
-                             rdfs:subPropertyOf :AC5 ;
-                             rdfs:comment "Eq. 5) Estimated Cost for Modular Production per No. of Type 1  house (〖AC〗_5):" .
-
-
-###  https://w3id.org/oho#hasModuleAssemblyCost
-:hasModuleAssemblyCost rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :C5-AC1-SA2 .
-
-
-###  https://w3id.org/oho#hasNoAnticipatedNB
-:hasNoAnticipatedNB rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :C2 ;
-                    rdfs:comment "Anticipated no.of houses per product type per batch (NB)" .
-
-
-###  https://w3id.org/oho#hasNoOfHousesBatch
-:hasNoOfHousesBatch rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :hasDirectlyProcuredLabourCostSA1 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesBatchFacilities
-:hasNoOfHousesBatchFacilities rdf:type owl:DatatypeProperty ;
-                              rdfs:subPropertyOf :hasAssignedFacilitiesUtilitiesCostSA1 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesInProjectSA1
-:hasNoOfHousesInProjectSA1 rdf:type owl:DatatypeProperty ;
-                           rdfs:subPropertyOf :C5-AC2-SA1 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesInProjectSA2
-:hasNoOfHousesInProjectSA2 rdf:type owl:DatatypeProperty ;
-                           rdfs:subPropertyOf :C5-AC2-SA2 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesPPTS1
-:hasNoOfHousesPPTS1 rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :TS1 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesPPTS2
-:hasNoOfHousesPPTS2 rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :TS2 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesPPTS3
-:hasNoOfHousesPPTS3 rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :TS3 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesPPTS4
-:hasNoOfHousesPPTS4 rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :TS4 .
-
-
-###  https://w3id.org/oho#hasNoOfHousesPerBatch
-:hasNoOfHousesPerBatch rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :hasPlantEquipmentCostSA1 .
-
-
-###  https://w3id.org/oho#hasNoOfJourneyPerHouse
-:hasNoOfJourneyPerHouse rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf :C4 .
-
-
-###  https://w3id.org/oho#hasNoOfOperatives
-:hasNoOfOperatives rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasOffsiteConstructionCostC3
-:hasOffsiteConstructionCostC3 rdf:type owl:DatatypeProperty ;
-                              rdfs:subPropertyOf :C3 .
-
-
-###  https://w3id.org/oho#hasOnsiteCostC5
-:hasOnsiteCostC5 rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :C5 .
-
-
-###  https://w3id.org/oho#hasOnsiteSupportCost
-:hasOnsiteSupportCost rdf:type owl:DatatypeProperty ;
-                      rdfs:subPropertyOf :C5-AC2 .
-
-
-###  https://w3id.org/oho#hasOnsiteWorksCost
-:hasOnsiteWorksCost rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :C5-AC1 .
-
-
-###  https://w3id.org/oho#hasOpeningArea
-:hasOpeningArea rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf :hasArea .
-
-
-###  https://w3id.org/oho#hasOverheadCost
-:hasOverheadCost rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasPackagingProtectionCostSA5
-:hasPackagingProtectionCostSA5 rdf:type owl:DatatypeProperty ;
-                               rdfs:subPropertyOf :SA5 .
-
-
-###  https://w3id.org/oho#hasPanelCladdingSubAssemblyCostSA2
-:hasPanelCladdingSubAssemblyCostSA2 rdf:type owl:DatatypeProperty ;
-                                    rdfs:subPropertyOf :SA2 .
-
-
-###  https://w3id.org/oho#hasPanelFrameSubAssemblyCostSA1
-:hasPanelFrameSubAssemblyCostSA1 rdf:type owl:DatatypeProperty ;
-                                 rdfs:subPropertyOf :SA1 ;
-                                 rdfs:comment """Sub-activity (SA)	Cost Calculation
-Panel frame sub-assembly	Directly procured materials (Ref. Eq. 6) + Directly procured labour (Ref. Eq. 7) + Plant and equipment (Ref. Eq. 8) + Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)""" .
-
-
-###  https://w3id.org/oho#hasPeriodOfProduction
-:hasPeriodOfProduction rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :hasDirectlyProcuredLabourCostSA1 .
-
-
-###  https://w3id.org/oho#hasPeriodOfProductionFacilities
-:hasPeriodOfProductionFacilities rdf:type owl:DatatypeProperty ;
-                                 rdfs:subPropertyOf :hasAssignedFacilitiesUtilitiesCostSA1 .
-
-
-###  https://w3id.org/oho#hasPeriodofProduction
-:hasPeriodofProduction rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :hasPlantEquipmentCostSA1 .
-
-
-###  https://w3id.org/oho#hasPlanningSchedulingCostAC2
-:hasPlanningSchedulingCostAC2 rdf:type owl:DatatypeProperty ;
-                              rdfs:subPropertyOf :AC2 ;
-                              rdfs:comment """Customer Relations	(Assigned total cost of customer relations per project)/(No.of houses in the Project)
-(Project dependent – i.e. the cost is based on the project)""" .
-
-
-###  https://w3id.org/oho#hasPlantDayRate
-:hasPlantDayRate rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasUnitRate .
-
-
-###  https://w3id.org/oho#hasPlantDepreciationCost
-:hasPlantDepreciationCost rdf:type owl:DatatypeProperty ;
-                          rdfs:subPropertyOf :hasOverheadCost .
-
-
-###  https://w3id.org/oho#hasPlantEquipmentCost
-:hasPlantEquipmentCost rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf :C5-AC1-SA2 ;
-                       rdfs:comment "Eq. 8" .
-
-
-###  https://w3id.org/oho#hasPlantEquipmentCostSA1
-:hasPlantEquipmentCostSA1 rdf:type owl:DatatypeProperty ;
-                          rdfs:subPropertyOf :SA1 ;
-                          rdfs:comment "Plant and equipment (Ref. Eq. 8)" .
-
-
-###  https://w3id.org/oho#hasPodFrameSubAssemblyCostSA3
-:hasPodFrameSubAssemblyCostSA3 rdf:type owl:DatatypeProperty ;
-                               rdfs:subPropertyOf :SA3 .
-
-
-###  https://w3id.org/oho#hasPodSubAssembyCostSA4
-:hasPodSubAssembyCostSA4 rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf :SA4 .
-
-
-###  https://w3id.org/oho#hasProcessTime
-:hasProcessTime rdf:type owl:DatatypeProperty ;
-                rdfs:range xsd:double .
-
-
-###  https://w3id.org/oho#hasProcurementInventoryCostAC3
-:hasProcurementInventoryCostAC3 rdf:type owl:DatatypeProperty ;
-                                rdfs:subPropertyOf :AC3 ;
-                                rdfs:comment "Planning and scheduling	(Assigned total cost of planning and scheduling per project)/(No.of houses in the Project) (Project dependent)" .
-
-
-###  https://w3id.org/oho#hasProductionEngineeringCostTS1
-:hasProductionEngineeringCostTS1 rdf:type owl:DatatypeProperty ;
-                                 rdfs:subPropertyOf :TS1 .
-
-
-###  https://w3id.org/oho#hasProductionEngineeringManagementSupportCostAC6
-:hasProductionEngineeringManagementSupportCostAC6 rdf:type owl:DatatypeProperty ;
-                                                  rdfs:subPropertyOf :AC6 .
-
-
-###  https://w3id.org/oho#hasProductionManagementCostTS2
-:hasProductionManagementCostTS2 rdf:type owl:DatatypeProperty ;
-                                rdfs:subPropertyOf :TS2 .
-
-
-###  https://w3id.org/oho#hasQAQCCostTS3
-:hasQAQCCostTS3 rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf :TS3 .
-
-
-###  https://w3id.org/oho#hasQuantity
-:hasQuantity rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasRentCost
-:hasRentCost rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :hasOverheadCost .
-
-
-###  https://w3id.org/oho#hasRoofCost
-:hasRoofCost rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :C5-AC1-SA4 .
-
-
-###  https://w3id.org/oho#hasSemiDetached
-:hasSemiDetached rdf:type owl:DatatypeProperty ,
-                          owl:FunctionalProperty ;
-                 rdfs:domain :House .
-
-
-###  https://w3id.org/oho#hasSitePreliminariesCost
-:hasSitePreliminariesCost rdf:type owl:DatatypeProperty ;
-                          rdfs:subPropertyOf :C5-AC2-SA2 .
-
-
-###  https://w3id.org/oho#hasSitePreparationCost
-:hasSitePreparationCost rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf :C5-AC1-SA1 .
-
-
-###  https://w3id.org/oho#hasSubContractorCostSA3
-:hasSubContractorCostSA3 rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf :C5-AC1-SA3 .
-
-
-###  https://w3id.org/oho#hasSubContractorCostSA4
-:hasSubContractorCostSA4 rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf :C5-AC1-SA4 ;
-                         rdfs:comment "Eq. 10" .
-
-
-###  https://w3id.org/oho#hasSurfaceArea
-:hasSurfaceArea rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf :hasArea .
-
-
-###  https://w3id.org/oho#hasTerrace
-:hasTerrace rdf:type owl:DatatypeProperty ;
-            rdfs:domain :House .
-
-
-###  https://w3id.org/oho#hasThickness
-:hasThickness rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf :hasDimensions .
-
-
-###  https://w3id.org/oho#hasToolMaintenanceCostTS4
-:hasToolMaintenanceCostTS4 rdf:type owl:DatatypeProperty ;
-                           rdfs:subPropertyOf :TS4 .
-
-
-###  https://w3id.org/oho#hasToolQuantity
-:hasToolQuantity rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasQuantity .
-
-
-###  https://w3id.org/oho#hasTotalAssignedIndividualConsultantCostPerProduct
-:hasTotalAssignedIndividualConsultantCostPerProduct rdf:type owl:DatatypeProperty ;
-                                                    rdfs:subPropertyOf :C2 ;
-                                                    rdfs:comment "The total of Assigned Individual consultant and testing cost for  house development per product type" .
-
-
-###  https://w3id.org/oho#hasTransportationCostC4
-:hasTransportationCostC4 rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf :C4 .
-
-
-###  https://w3id.org/oho#hasUnitRate
-:hasUnitRate rdf:type owl:DatatypeProperty ;
-             rdfs:range xsd:double .
-
-
-###  https://w3id.org/oho#hasUsefulLife
-:hasUsefulLife rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty .
-
-
-###  https://w3id.org/oho#hasWaitingWaste
-:hasWaitingWaste rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasWaste ;
-                 rdfs:range xsd:boolean .
-
-
-###  https://w3id.org/oho#hasWallArea
-:hasWallArea rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :hasArea .
-
-
-###  https://w3id.org/oho#hasWaste
-:hasWaste rdf:type owl:DatatypeProperty ;
-          rdfs:range xsd:boolean .
-
-
-###  https://w3id.org/oho#hasWeight
-:hasWeight rdf:type owl:DatatypeProperty .
-
-
-###  https://w3id.org/oho#hasWidth
-:hasWidth rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :hasDimensions .
-
-
-###  https://w3id.org/oho#latitude
-:latitude rdf:type owl:DatatypeProperty ,
-                   owl:FunctionalProperty .
-
-
-###  https://w3id.org/oho#longitude
-:longitude rdf:type owl:DatatypeProperty .
-
-
-#################################################################
 #    Classes
 #################################################################
 
@@ -871,6 +95,7 @@ Panel frame sub-assembly	Directly procured materials (Ref. Eq. 6) + Directly pro
 
 ###  https://w3id.org/oho#Component
 :Component rdf:type owl:Class ;
+           rdfs:subClassOf :Thing ;
            <http://purl.org/dc/elements/1.1/description> """Manufactured individual building element
 including prefabricated elements e.g. precast
 staircases, refuse chutes, structural members
@@ -904,11 +129,13 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#House
-:House rdf:type owl:Class .
+:House rdf:type owl:Class ;
+       rdfs:subClassOf :Thing .
 
 
 ###  https://w3id.org/oho#Interface
-:Interface rdf:type owl:Class .
+:Interface rdf:type owl:Class ;
+           rdfs:subClassOf :Thing .
 
 
 ###  https://w3id.org/oho#KitchenCabinet
@@ -947,11 +174,13 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Product
-:Product rdf:type owl:Class .
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf :Thing .
 
 
 ###  https://w3id.org/oho#Production
-:Production rdf:type owl:Class .
+:Production rdf:type owl:Class ;
+            rdfs:subClassOf :Thing .
 
 
 ###  https://w3id.org/oho#Radiator
@@ -999,6 +228,10 @@ such as columns, reinforcement cages etc.""" .
          rdfs:subClassOf :House .
 
 
+###  https://w3id.org/oho#Thing
+:Thing rdf:type owl:Class .
+
+
 ###  https://w3id.org/oho#WallPanel
 :WallPanel rdf:type owl:Class ;
            rdfs:subClassOf :Product .
@@ -1014,43 +247,35 @@ such as columns, reinforcement cages etc.""" .
 #################################################################
 
 ###  https://w3id.org/oho#A
-:A rdf:type owl:NamedIndividual ;
-   :hasCount 100 .
+:A rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Adhesive
-:Adhesive rdf:type owl:NamedIndividual ;
-          :hasActivityCost "4.0"^^xsd:double .
+:Adhesive rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Architect
-:Architect rdf:type owl:NamedIndividual ;
-           :hasActivityCost "2500.0"^^xsd:double .
+:Architect rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#AssignedFacilitiesAndUtilities150
-:AssignedFacilitiesAndUtilities150 rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "2073.0"^^xsd:double .
+:AssignedFacilitiesAndUtilities150 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#AssignedFacilitiesAndUtilities200
-:AssignedFacilitiesAndUtilities200 rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "1590.0"^^xsd:double .
+:AssignedFacilitiesAndUtilities200 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#AssignedFacilitiesAndUtilities50
-:AssignedFacilitiesAndUtilities50 rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "5937.0"^^xsd:double .
+:AssignedFacilitiesAndUtilities50 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#AssignedFacilitiesAndUtilities6
-:AssignedFacilitiesAndUtilities6 rdf:type owl:NamedIndividual ;
-                                 :hasActivityCost "48497.0"^^xsd:double .
+:AssignedFacilitiesAndUtilities6 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#AssignedFacilitiesAndUtilities80
-:AssignedFacilitiesAndUtilities80 rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "3798.0"^^xsd:double .
+:AssignedFacilitiesAndUtilities80 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Band
@@ -1062,37 +287,31 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#Basin
 :Basin rdf:type owl:NamedIndividual ;
-       :hasActivityCost "1200.0"^^xsd:double ;
        rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#BathroomCabinets
 :BathroomCabinets rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "1600.0"^^xsd:double ;
                   rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Bathtub
 :Bathtub rdf:type owl:NamedIndividual ;
-         :hasActivityCost "960.0"^^xsd:double ;
          rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#BatterySystem
 :BatterySystem rdf:type owl:NamedIndividual ;
-               :hasActivityCost "16000.0"^^xsd:double ;
                rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Bolts-A
 :Bolts-A rdf:type owl:NamedIndividual ;
-         :hasActivityCost "176.4"^^xsd:double ;
          rdfs:isDefinedBy "BIM Model Extraction" .
 
 
 ###  https://w3id.org/oho#Bolts-B
 :Bolts-B rdf:type owl:NamedIndividual ;
-         :hasActivityCost "840.0"^^xsd:double ;
          rdfs:isDefinedBy "BIM Model Extraction" .
 
 
@@ -1101,116 +320,93 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#BreatherMembrane
-:BreatherMembrane rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "1104.0"^^xsd:double .
+:BreatherMembrane rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BrickSlips
 :BrickSlips rdf:type owl:NamedIndividual ;
-            :hasActivityCost "97.5"^^xsd:double ;
             rdfs:isDefinedBy "BIM Model" .
 
 
 ###  https://w3id.org/oho#BronzeInUse
-:BronzeInUse rdf:type owl:NamedIndividual ;
-             :hasActivityCost "184762.98"^^xsd:double .
+:BronzeInUse rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BussinesOperation150
-:BussinesOperation150 rdf:type owl:NamedIndividual ;
-                      :hasActivityCost "2959.0"^^xsd:double .
+:BussinesOperation150 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BussinesOperation200
-:BussinesOperation200 rdf:type owl:NamedIndividual ;
-                      :hasActivityCost "3038.0"^^xsd:double .
+:BussinesOperation200 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BussinesOperation50
-:BussinesOperation50 rdf:type owl:NamedIndividual ;
-                     :C1 "2186.0"^^xsd:double .
+:BussinesOperation50 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BussinesOperation6
-:BussinesOperation6 rdf:type owl:NamedIndividual ;
-                    :hasActivityCost "16183.0"^^xsd:double .
+:BussinesOperation6 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#BussinesOperation80
-:BussinesOperation80 rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "3016.0"^^xsd:double .
+:BussinesOperation80 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#CL_1
 :CL_1 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 1" .
 
 
 ###  https://w3id.org/oho#CL_2
 :CL_2 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 2" .
 
 
 ###  https://w3id.org/oho#CL_3
 :CL_3 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 3" .
 
 
 ###  https://w3id.org/oho#CL_4
 :CL_4 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 4" .
 
 
 ###  https://w3id.org/oho#CL_5
 :CL_5 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 5" .
 
 
 ###  https://w3id.org/oho#CL_6
 :CL_6 rdf:type owl:NamedIndividual ;
-      :hasLabourHrRate "9.0"^^xsd:double ;
       rdfs:comment "Casual Labour with unique  ID number 6" .
 
 
 ###  https://w3id.org/oho#CO2Detector
 :CO2Detector rdf:type owl:NamedIndividual ;
-             :hasActivityCost "200.0"^^xsd:double ;
              rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#CPBoardScrewStation
 :CPBoardScrewStation rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "1996.8000000000004"^^xsd:double ;
                      rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#CandiwallBackingBoard
-:CandiwallBackingBoard rdf:type owl:NamedIndividual ;
-                       :hasActivityCost "15456.0"^^xsd:double .
+:CandiwallBackingBoard rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Carpenter
 :Carpenter rdf:type owl:NamedIndividual ;
-           :hasActivityCost "11520.0"^^xsd:double ;
            rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#CementBoard
-:CementBoard rdf:type owl:NamedIndividual ;
-             :hasActivityCost "15456.0"^^xsd:double .
+:CementBoard rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#CentralPodsAndPanelsProject
 :CentralPodsAndPanelsProject rdf:type owl:NamedIndividual ;
-                             :hasDetached "2.0"^^xsd:double ;
-                             :hasDistance "20.0"^^xsd:double ;
-                             :hasSemiDetached "2.0"^^xsd:double ;
-                             :hasTerrace "4.0"^^xsd:double ;
                              rdfs:comment "Central Pods and Panels (Semi-automated line production for panels and manual assembled pods)" .
 
 
@@ -1219,148 +415,120 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Clips
-:Clips rdf:type owl:NamedIndividual ;
-       :hasActivityCost "5520.0"^^xsd:double .
+:Clips rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Customer_Relation
-:Customer_Relation rdf:type owl:NamedIndividual ;
-                   :hasActivityCost "2000.0"^^xsd:double .
+:Customer_Relation rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DataCable
 :DataCable rdf:type owl:NamedIndividual ;
-           :hasActivityCost "273.0"^^xsd:double ;
            rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#DesignAndEngineering150
-:DesignAndEngineering150 rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "12973.0"^^xsd:double .
+:DesignAndEngineering150 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DesignAndEngineering200
-:DesignAndEngineering200 rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "12861.0"^^xsd:double .
+:DesignAndEngineering200 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DesignAndEngineering50
-:DesignAndEngineering50 rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "13235.0"^^xsd:double .
+:DesignAndEngineering50 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DesignAndEngineering6
-:DesignAndEngineering6 rdf:type owl:NamedIndividual ;
-                       :hasActivityCost "13423.0"^^xsd:double .
+:DesignAndEngineering6 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DesignAndEngineering80
-:DesignAndEngineering80 rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "13123.0"^^xsd:double .
+:DesignAndEngineering80 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Design_and_Engineering
-:Design_and_Engineering rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "0.0"^^xsd:double .
+:Design_and_Engineering rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabour50
-:DirectlyProcuredLabour50 rdf:type owl:NamedIndividual ;
-                          :hasActivityCost "25618.0"^^xsd:double .
+:DirectlyProcuredLabour50 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourCentralPod
-:DirectlyProcuredLabourCentralPod rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "23354.0"^^xsd:double .
+:DirectlyProcuredLabourCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourPanelised150
-:DirectlyProcuredLabourPanelised150 rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "7285.0"^^xsd:double .
+:DirectlyProcuredLabourPanelised150 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourPanelised200
-:DirectlyProcuredLabourPanelised200 rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "6713.0"^^xsd:double .
+:DirectlyProcuredLabourPanelised200 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourPanelised50
-:DirectlyProcuredLabourPanelised50 rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "8059.0"^^xsd:double .
+:DirectlyProcuredLabourPanelised50 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourPanelised6
-:DirectlyProcuredLabourPanelised6 rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "840.0"^^xsd:double .
+:DirectlyProcuredLabourPanelised6 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourPanelised80
-:DirectlyProcuredLabourPanelised80 rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "10332.0"^^xsd:double .
+:DirectlyProcuredLabourPanelised80 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredLabourVolumatric80
-:DirectlyProcuredLabourVolumatric80 rdf:type owl:NamedIndividual ;
-                                    :C1 "28097.0"^^xsd:double .
+:DirectlyProcuredLabourVolumatric80 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredMaterialCentralPod
-:DirectlyProcuredMaterialCentralPod rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "26760.0"^^xsd:double .
+:DirectlyProcuredMaterialCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredMaterialPanelised
-:DirectlyProcuredMaterialPanelised rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "6134.0"^^xsd:double .
+:DirectlyProcuredMaterialPanelised rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredMaterialStick
-:DirectlyProcuredMaterialStick rdf:type owl:NamedIndividual ;
-                               :hasActivityCost "6004.0"^^xsd:double .
+:DirectlyProcuredMaterialStick rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DirectlyProcuredMaterialVolumetric
-:DirectlyProcuredMaterialVolumetric rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "30362.0"^^xsd:double .
+:DirectlyProcuredMaterialVolumetric rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#DrainagePipe
 :DrainagePipe rdf:type owl:NamedIndividual ;
-              :hasActivityCost "264.6"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#E_Consult
-:E_Consult rdf:type owl:NamedIndividual ;
-           :hasActivityCost "500.0"^^xsd:double .
+:E_Consult rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ElectricalInstallationType
 :ElectricalInstallationType rdf:type owl:NamedIndividual ;
-                            :hasActivityCost "800.0"^^xsd:double ;
                             rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Electrician
 :Electrician rdf:type owl:NamedIndividual ;
-             :hasActivityCost "11520.0"^^xsd:double ;
              rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#ElectricityCable
-:ElectricityCable rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "344.40000000000003"^^xsd:double .
+:ElectricityCable rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#EnergyAndFaultMonitoringRequired
 :EnergyAndFaultMonitoringRequired rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "400.0"^^xsd:double ;
                                   rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#EntranceDoor
 :EntranceDoor rdf:type owl:NamedIndividual ;
-              :hasActivityCost "4000.0"^^xsd:double ;
               rdfs:isDefinedBy "BIM Model" .
 
 
@@ -1369,8 +537,7 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#FlatRoofWithSinglePlyMembrane
-:FlatRoofWithSinglePlyMembrane rdf:type owl:NamedIndividual ;
-                               :hasActivityCost "5405.0"^^xsd:double .
+:FlatRoofWithSinglePlyMembrane rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Fork_Lift
@@ -1379,18 +546,15 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#FrameAndMaterialLoadingAndUnloading
 :FrameAndMaterialLoadingAndUnloading rdf:type owl:NamedIndividual ;
-                                     :hasActivityCost "144.00000000000003"^^xsd:double ;
                                      rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#Gold
-:Gold rdf:type owl:NamedIndividual ;
-      :hasActivityCost "34520.0"^^xsd:double .
+:Gold rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#GoldInUse
-:GoldInUse rdf:type owl:NamedIndividual ;
-           :hasActivityCost "142788.85"^^xsd:double .
+:GoldInUse rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Guard
@@ -1399,25 +563,21 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#HatChannelsAndSupportRails
 :HatChannelsAndSupportRails rdf:type owl:NamedIndividual ;
-                            :hasActivityCost "6480.0"^^xsd:double ;
                             rdfs:isDefinedBy "BIM Model" .
 
 
 ###  https://w3id.org/oho#HeatDetector
 :HeatDetector rdf:type owl:NamedIndividual ;
-              :hasActivityCost "200.0"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#HotAndColdWaterPipe
 :HotAndColdWaterPipe rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "264.6"^^xsd:double ;
                      rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#HotWaterCylinderType
 :HotWaterCylinderType rdf:type owl:NamedIndividual ;
-                      :hasActivityCost "6400.0"^^xsd:double ;
                       rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -1428,7 +588,6 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#InspectionStation
 :InspectionStation rdf:type owl:NamedIndividual ;
-                   :hasActivityCost "710.4000000000001"^^xsd:double ;
                    rdfs:isDefinedBy "Productivity datasheet" .
 
 
@@ -1449,43 +608,36 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#InsulationBoard
-:InsulationBoard rdf:type owl:NamedIndividual ;
-                 :hasActivityCost "11040.0"^^xsd:double .
+:InsulationBoard rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#InsulationToExternalWall
 :InsulationToExternalWall rdf:type owl:NamedIndividual ;
-                          :hasActivityCost "907.2"^^xsd:double ;
                           rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#JointTapeToCementBoard
 :JointTapeToCementBoard rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "184.00000000000003"^^xsd:double ;
                         rdfs:isDefinedBy "BIM Model" .
 
 
 ###  https://w3id.org/oho#JointTapeToInternalWalls
 :JointTapeToInternalWalls rdf:type owl:NamedIndividual ;
-                          :hasActivityCost "71.01599999999999"^^xsd:double ;
                           rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#KicthenMixer
 :KicthenMixer rdf:type owl:NamedIndividual ;
-              :hasActivityCost "480.0"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#KitchenCabinets
 :KitchenCabinets rdf:type owl:NamedIndividual ;
-                 :hasActivityCost "9600.0"^^xsd:double ;
                  rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#KitchenSink
 :KitchenSink rdf:type owl:NamedIndividual ;
-             :hasActivityCost "320.0"^^xsd:double ;
              rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -1501,7 +653,6 @@ such as columns, reinforcement cages etc.""" .
                                    :mmS ,
                                    :mmSS ,
                                    :mmStud ;
-                 :hasWeight "2000.0"^^xsd:double ;
                  rdfs:comment "LSF 3BED 01 LHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom left hand side (LHS) when looking from the entrance of the 3 bedroom house." .
 
 
@@ -1674,19 +825,16 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#LampsToBeSupplied
 :LampsToBeSupplied rdf:type owl:NamedIndividual ;
-                   :hasActivityCost "4800.0"^^xsd:double ;
                    rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#LightSwitches
 :LightSwitches rdf:type owl:NamedIndividual ;
-               :hasActivityCost "126.0"^^xsd:double ;
                rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#LightingCable
-:LightingCable rdf:type owl:NamedIndividual ;
-               :hasActivityCost "352.8"^^xsd:double .
+:LightingCable rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#LoadCPBoardOnFrame
@@ -1702,57 +850,47 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#LoadingAndUnloading
-:LoadingAndUnloading rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "107.65196074939807"^^xsd:double .
+:LoadingAndUnloading rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#MCProfitCentralPod
-:MCProfitCentralPod rdf:type owl:NamedIndividual ;
-                    :hasActivityCost "16676.03"^^xsd:double .
+:MCProfitCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#MCProfitPanelised
-:MCProfitPanelised rdf:type owl:NamedIndividual ;
-                   :hasActivityCost "16857.0"^^xsd:double .
+:MCProfitPanelised rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#MCProfitStick
-:MCProfitStick rdf:type owl:NamedIndividual ;
-               :hasActivityCost "15202.94"^^xsd:double .
+:MCProfitStick rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#MVHR
 :MVHR rdf:type owl:NamedIndividual ;
-      :hasActivityCost "9600.0"^^xsd:double ;
       rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Maintenance_and_Service
-:Maintenance_and_Service rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "42000.0"^^xsd:double .
+:Maintenance_and_Service rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ManualInstallation
 :ManualInstallation rdf:type owl:NamedIndividual ;
-                    :hasActivityCost "39936.0"^^xsd:double ;
                     rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#ManualReworkAndCPBoardLoadStation
 :ManualReworkAndCPBoardLoadStation rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "998.4000000000002"^^xsd:double ;
                                    rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#ManualReworkStation
 :ManualReworkStation rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "355.20000000000005"^^xsd:double ;
                      rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#MaterialDelivery
-:MaterialDelivery rdf:type owl:NamedIndividual ;
-                  :hasWaitingWaste "true"^^xsd:boolean .
+:MaterialDelivery rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#MeasuringAndCuttingCPBoard
@@ -1768,8 +906,7 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Modular_Production
-:Modular_Production rdf:type owl:NamedIndividual ;
-                    :hasActivityCost "49996.0"^^xsd:double .
+:Modular_Production rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#NutAndBoltFrame
@@ -1777,63 +914,51 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyRenderingCentralPod
-:OnsiteAssemblyRenderingCentralPod rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "37268.0"^^xsd:double .
+:OnsiteAssemblyRenderingCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyRenderingPanelised
-:OnsiteAssemblyRenderingPanelised rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "73310.51"^^xsd:double .
+:OnsiteAssemblyRenderingPanelised rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyRenderingStick
-:OnsiteAssemblyRenderingStick rdf:type owl:NamedIndividual ;
-                              :hasActivityCost "87225.0"^^xsd:double .
+:OnsiteAssemblyRenderingStick rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyRenderingVolumatric
-:OnsiteAssemblyRenderingVolumatric rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "27484.0"^^xsd:double .
+:OnsiteAssemblyRenderingVolumatric rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick
-:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick rdf:type owl:NamedIndividual ;
-                                                     :hasActivityCost "91699.0"^^xsd:double .
+:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipCentralPod
-:OnsiteAssemblyWeatherboardORBrickSlipCentralPod rdf:type owl:NamedIndividual ;
-                                                 :hasActivityCost "36108.0"^^xsd:double .
+:OnsiteAssemblyWeatherboardORBrickSlipCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipPanelised
-:OnsiteAssemblyWeatherboardORBrickSlipPanelised rdf:type owl:NamedIndividual ;
-                                                :hasActivityCost "72151.11"^^xsd:double .
+:OnsiteAssemblyWeatherboardORBrickSlipPanelised rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSplipVolumatric
-:OnsiteAssemblyWeatherboardORBrickSplipVolumatric rdf:type owl:NamedIndividual ;
-                                                  :hasActivityCost "26325.0"^^xsd:double .
+:OnsiteAssemblyWeatherboardORBrickSplipVolumatric rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#OnsiteSubstructureAndExternalWall
-:OnsiteSubstructureAndExternalWall rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "34415.0"^^xsd:double .
+:OnsiteSubstructureAndExternalWall rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Onsite_Support
-:Onsite_Support rdf:type owl:NamedIndividual ;
-                :hasActivityCost "7542.0"^^xsd:double .
+:Onsite_Support rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Onsite_Work
-:Onsite_Work rdf:type owl:NamedIndividual ;
-             :hasActivityCost "15658.0"^^xsd:double .
+:Onsite_Work rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Operational
-:Operational rdf:type owl:NamedIndividual ;
-             :hasActivityCost "10718.0"^^xsd:double .
+:Operational rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PG_1
@@ -1846,35 +971,29 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#PackagingAndProtection
-:PackagingAndProtection rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "195.6941565347004"^^xsd:double .
+:PackagingAndProtection rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PanelCladdingsub-assembly
-:PanelCladdingsub-assembly rdf:type owl:NamedIndividual ;
-                           :hasActivityCost "11200.04816104884"^^xsd:double .
+:PanelCladdingsub-assembly rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PanelFramesub-assembly
-:PanelFramesub-assembly rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "6698.943859995457"^^xsd:double .
+:PanelFramesub-assembly rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PanelHeaters
 :PanelHeaters rdf:type owl:NamedIndividual ;
-              :hasActivityCost "2000.0"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#PanelTurnoverAndToolingReturnStation
 :PanelTurnoverAndToolingReturnStation rdf:type owl:NamedIndividual ;
-                                      :hasActivityCost "0.0"^^xsd:double ;
                                       rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#Panel_Testing
-:Panel_Testing rdf:type owl:NamedIndividual ;
-               :hasActivityCost "50.0"^^xsd:double .
+:Panel_Testing rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Panelised
@@ -1882,52 +1001,40 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#PanelisedProject
-:PanelisedProject rdf:type owl:NamedIndividual ;
-                  :hasDetached "2.0"^^xsd:double ;
-                  :hasDistance "20.0"^^xsd:double ;
-                  :hasSemiDetached "2.0"^^xsd:double ;
-                  :hasTerrace "4.0"^^xsd:double .
+:PanelisedProject rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PendantLights
 :PendantLights rdf:type owl:NamedIndividual ;
-               :hasActivityCost "352.8"^^xsd:double ;
                rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#PitchedRoofWithClayTileCovering
-:PitchedRoofWithClayTileCovering rdf:type owl:NamedIndividual ;
-                                 :hasActivityCost "8010.0"^^xsd:double .
+:PitchedRoofWithClayTileCovering rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PitchedRoofWithPlasticTileCovering
-:PitchedRoofWithPlasticTileCovering rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "9110.0"^^xsd:double .
+:PitchedRoofWithPlasticTileCovering rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PitchedRoofWithSlateTileCovering
-:PitchedRoofWithSlateTileCovering rdf:type owl:NamedIndividual ;
-                                  :hasActivityCost "8010.0"^^xsd:double .
+:PitchedRoofWithSlateTileCovering rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Planning_and_Scheduling
-:Planning_and_Scheduling rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "2500.0"^^xsd:double .
+:Planning_and_Scheduling rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PlantAndEquipment
-:PlantAndEquipment rdf:type owl:NamedIndividual ;
-                   :hasActivityCost "2548.0"^^xsd:double .
+:PlantAndEquipment rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PlantAndEquipmentCentralPod
-:PlantAndEquipmentCentralPod rdf:type owl:NamedIndividual ;
-                             :hasActivityCost "3130.0"^^xsd:double .
+:PlantAndEquipmentCentralPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PlantAndEquipmentVolumetric
-:PlantAndEquipmentVolumetric rdf:type owl:NamedIndividual ;
-                             :hasActivityCost "3130.0"^^xsd:double .
+:PlantAndEquipmentVolumetric rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Plant_and_Equipment
@@ -1935,8 +1042,7 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Plasterboard
-:Plasterboard rdf:type owl:NamedIndividual ;
-              :hasActivityCost "3709.4400000000005"^^xsd:double .
+:Plasterboard rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Platform
@@ -1945,29 +1051,24 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#Plumber
 :Plumber rdf:type owl:NamedIndividual ;
-         :hasActivityCost "11520.0"^^xsd:double ;
          rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#PodFramesub-assembly
-:PodFramesub-assembly rdf:type owl:NamedIndividual ;
-                      :hasActivityCost "5304.204370587974"^^xsd:double .
+:PodFramesub-assembly rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#PodLoadingAndUnloading
 :PodLoadingAndUnloading rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "144.00000000000003"^^xsd:double ;
                         rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#Pod_Testing
-:Pod_Testing rdf:type owl:NamedIndividual ;
-             :hasActivityCost "50.0"^^xsd:double .
+:Pod_Testing rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Podsub-assembly
-:Podsub-assembly rdf:type owl:NamedIndividual ;
-                 :hasActivityCost "26087.43017842151"^^xsd:double .
+:Podsub-assembly rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ProcessCoordination
@@ -1975,8 +1076,7 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Procurement_and_Inventory_Control
-:Procurement_and_Inventory_Control rdf:type owl:NamedIndividual ;
-                                   :hasActivityCost "2500.0"^^xsd:double .
+:Procurement_and_Inventory_Control rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Product-A
@@ -1985,19 +1085,16 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#Production_Engineering_Management_and_Support
-:Production_Engineering_Management_and_Support rdf:type owl:NamedIndividual ;
-                                               :hasActivityCost "3500.0"^^xsd:double .
+:Production_Engineering_Management_and_Support rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#QI_101
 :QI_101 rdf:type owl:NamedIndividual ;
-        :hasLabourHrRate "11.0"^^xsd:double ;
         rdfs:comment "Quality Inspector with unique  ID number 101" .
 
 
 ###  https://w3id.org/oho#QI_102
 :QI_102 rdf:type owl:NamedIndividual ;
-        :hasLabourHrRate "11.0"^^xsd:double ;
         rdfs:comment "Quality Inspector with unique  ID number 102" .
 
 
@@ -2015,13 +1112,11 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#RecessedLights
 :RecessedLights rdf:type owl:NamedIndividual ;
-                :hasActivityCost "273.0"^^xsd:double ;
                 rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Repair_and_Replacement
-:Repair_and_Replacement rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "90255.0"^^xsd:double .
+:Repair_and_Replacement rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ResourceAllocation
@@ -2050,55 +1145,46 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#SSO_1
 :SSO_1 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with ID number 1" .
 
 
 ###  https://w3id.org/oho#SSO_2
 :SSO_2 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 2" .
 
 
 ###  https://w3id.org/oho#SSO_3
 :SSO_3 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 3" .
 
 
 ###  https://w3id.org/oho#SSO_4
 :SSO_4 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 4" .
 
 
 ###  https://w3id.org/oho#SSO_5
 :SSO_5 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 5" .
 
 
 ###  https://w3id.org/oho#SSO_6
 :SSO_6 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 6" .
 
 
 ###  https://w3id.org/oho#SSO_7
 :SSO_7 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 7" .
 
 
 ###  https://w3id.org/oho#SSO_8
 :SSO_8 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 8" .
 
 
 ###  https://w3id.org/oho#SSO_9
 :SSO_9 rdf:type owl:NamedIndividual ;
-       :hasLabourHrRate "13.0"^^xsd:double ;
        rdfs:comment "Semi Skilled Operative with unique  ID number 9" .
 
 
@@ -2107,47 +1193,39 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#ScrewBracketForPod
-:ScrewBracketForPod rdf:type owl:NamedIndividual ;
-                    :hasActivityCost "1512.0000000000002"^^xsd:double .
+:ScrewBracketForPod rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#SedumGreenRoof
-:SedumGreenRoof rdf:type owl:NamedIndividual ;
-                :hasActivityCost "11750.0"^^xsd:double .
+:SedumGreenRoof rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ShowerScreen
 :ShowerScreen rdf:type owl:NamedIndividual ;
-              :hasActivityCost "640.0"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#ShowerThermostaticMixer
 :ShowerThermostaticMixer rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "800.0"^^xsd:double ;
                          rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#SilverInUse
-:SilverInUse rdf:type owl:NamedIndividual ;
-             :hasActivityCost "179870.86"^^xsd:double .
+:SilverInUse rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#SmokeDetector
 :SmokeDetector rdf:type owl:NamedIndividual ;
-               :hasActivityCost "200.0"^^xsd:double ;
                rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Sockets
 :Sockets rdf:type owl:NamedIndividual ;
-         :hasActivityCost "105.84"^^xsd:double ;
          rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#SolarPV
 :SolarPV rdf:type owl:NamedIndividual ;
-         :hasActivityCost "32000.0"^^xsd:double ;
          rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -2157,7 +1235,6 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#StairsAndBalustrades
 :StairsAndBalustrades rdf:type owl:NamedIndividual ;
-                      :hasActivityCost "12000.0"^^xsd:double ;
                       rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -2170,21 +1247,15 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#StickProject
-:StickProject rdf:type owl:NamedIndividual ;
-              :hasDetached "2"^^xsd:int ;
-              :hasDistance "20.0"^^xsd:double ;
-              :hasSemiDetached "2"^^xsd:int ;
-              :hasTerrace "4.0"^^xsd:double .
+:StickProject rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Storage
-:Storage rdf:type owl:NamedIndividual ;
-         :hasActivityCost "72.0375"^^xsd:double .
+:Storage rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Structural_Engineer
-:Structural_Engineer rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "500.0"^^xsd:double .
+:Structural_Engineer rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T10_Frame_transfer
@@ -2199,13 +1270,11 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#T12_Offload
 :T12_Offload rdf:type owl:NamedIndividual ;
-             :hasDurationInMins "30.0"^^xsd:double ;
              rdfs:comment "Task 12: Place internal frames not requiring finishing onto transport trolley" .
 
 
 ###  https://w3id.org/oho#T12_Transfer_to_Mech_Fixing
 :T12_Transfer_to_Mech_Fixing rdf:type owl:NamedIndividual ;
-                             :hasProcessTime "8.0"^^xsd:double ;
                              rdfs:comment "Task 12: Frame transfers into the mechanical fixing station" .
 
 
@@ -2225,51 +1294,42 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#T15_Cut_Wall_Opening
 :T15_Cut_Wall_Opening rdf:type owl:NamedIndividual ;
-                      :hasProcessTime "0.03"^^xsd:double ;
                       rdfs:comment "T15: Cut door and window openings in panels" .
 
 
 ###  https://w3id.org/oho#T16_Fix_Pods
 :T16_Fix_Pods rdf:type owl:NamedIndividual ;
-              :hasProcessTime "0.083"^^xsd:double ;
               rdfs:comment "T16: Fix door and window pods to the openings in the panels" .
 
 
 ###  https://w3id.org/oho#T17_Bond_EPDM
 :T17_Bond_EPDM rdf:type owl:NamedIndividual ;
-               :hasProcessTime "0.1"^^xsd:double ;
                rdfs:comment "T17: Bond EPDM to the openings" .
 
 
 ###  https://w3id.org/oho#T18_Install_Breather_Membrane
-:T18_Install_Breather_Membrane rdf:type owl:NamedIndividual ;
-                               :hasProcessTime "0.1"^^xsd:double .
+:T18_Install_Breather_Membrane rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T19_Fix_SubFrame
-:T19_Fix_SubFrame rdf:type owl:NamedIndividual ;
-                  :hasProcessTime "0.083"^^xsd:double .
+:T19_Fix_SubFrame rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T1_Deliver_Pallets
 :T1_Deliver_Pallets rdf:type owl:NamedIndividual ;
-                    :hasProcessTime "0.06"^^xsd:double ;
                     rdfs:comment "Task 1 - Deliver Pallets to loading area" .
 
 
 ###  https://w3id.org/oho#T20_Install_CandiWall_System
-:T20_Install_CandiWall_System rdf:type owl:NamedIndividual ;
-                              :hasProcessTime "0.166"^^xsd:double .
+:T20_Install_CandiWall_System rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T21_Install_Brick_Cladding
-:T21_Install_Brick_Cladding rdf:type owl:NamedIndividual ;
-                            :hasProcessTime "0.25"^^xsd:double .
+:T21_Install_Brick_Cladding rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T22_Install_Window_and_Door
-:T22_Install_Window_and_Door rdf:type owl:NamedIndividual ;
-                             :hasProcessTime "0.2"^^xsd:double .
+:T22_Install_Window_and_Door rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T23_Transfer_to_InternalFitOut
@@ -2301,8 +1361,7 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#T2_Select_and_Load_Beam
-:T2_Select_and_Load_Beam rdf:type owl:NamedIndividual ;
-                         :hasProcessTime "0.03"^^xsd:double .
+:T2_Select_and_Load_Beam rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#T30_Checking_and_Transfer
@@ -2341,7 +1400,6 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#T3_Clamp_Beam
 :T3_Clamp_Beam rdf:type owl:NamedIndividual ;
-               :hasActivityCost "300.0"^^xsd:double ;
                rdfs:comment "Task 3: Hold beam in place with clamps" .
 
 
@@ -2377,19 +1435,16 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#TEKScrewStation1
 :TEKScrewStation1 rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "1420.8000000000002"^^xsd:double ;
                   rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#TEKScrewStation2
 :TEKScrewStation2 rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "1420.8000000000002"^^xsd:double ;
                   rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#Taps
 :Taps rdf:type owl:NamedIndividual ;
-      :hasActivityCost "480.0"^^xsd:double ;
       rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -2399,40 +1454,33 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#TelephoneAndTVDistribution
 :TelephoneAndTVDistribution rdf:type owl:NamedIndividual ;
-                            :hasActivityCost "3200.0"^^xsd:double ;
                             rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#Timber
-:Timber rdf:type owl:NamedIndividual ;
-        :hasActivityCost "1560.0"^^xsd:double .
+:Timber rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#TimberStuds
 :TimberStuds rdf:type owl:NamedIndividual ;
-             :hasActivityCost "480.0"^^xsd:double ;
              rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
 ###  https://w3id.org/oho#ToolingSetUpStation
 :ToolingSetUpStation rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "1996.8000000000004"^^xsd:double ;
                      rdfs:isDefinedBy "Productivity datasheet" .
 
 
 ###  https://w3id.org/oho#TransportationOP
-:TransportationOP rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "330.0"^^xsd:double .
+:TransportationOP rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#TransportationPanelised
-:TransportationPanelised rdf:type owl:NamedIndividual ;
-                         :hasActivityCost "708.0"^^xsd:double .
+:TransportationPanelised rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#TransportationStick
-:TransportationStick rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "236.0"^^xsd:double .
+:TransportationStick rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Trolley
@@ -2445,34 +1493,15 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#Type1_House
 :Type1_House rdf:type owl:NamedIndividual ;
-             :NoOfHousesPerProject "200.0"^^xsd:double ;
-             :NoOfHousesPerProjectAC "45.0"^^xsd:double ;
-             :hasAssignedBusinessOperationCostPP "20000.0"^^xsd:double ;
-             :hasAssignedFacilitiesUtilitiesCostSA1 "360.0"^^xsd:double ;
-             :hasAssignedTotalCustomerRelationsCostPP "345.0"^^xsd:double ;
-             :hasAssignedTotalFactoryAdministrationCost "456.0"^^xsd:double ;
-             :hasAssignedTotalPlanningSchedulingCost "500.0"^^xsd:double ;
-             :hasAssignedTotalProcurementInventoryCost "4342.0"^^xsd:double ;
-             :hasDirectlyProcuredLabourCostSA1 "345.0"^^xsd:double ;
-             :hasDirectlyProcuredMaterialsCostSA1 "500.0"^^xsd:double ;
-             :hasLabourContent "300.0"^^xsd:double ;
-             :hasLabourRate "35.0"^^xsd:double ;
-             :hasNoAnticipatedNB "34.0"^^xsd:double ;
-             :hasNoOfHousesBatch "50.0"^^xsd:double ;
-             :hasPeriodOfProduction "12.0"^^xsd:double ;
-             :hasPlantEquipmentCostSA1 "345.0"^^xsd:double ;
-             :hasTotalAssignedIndividualConsultantCostPerProduct "564.0"^^xsd:double ;
              rdfs:comment "Type 1  House: Semi-detached; Pod frame + Infilled panel; automated factory production; a particular location and particular selection of roof and building service system choices)" .
 
 
 ###  https://w3id.org/oho#UPVC
-:UPVC rdf:type owl:NamedIndividual ;
-      :hasActivityCost "1497.0"^^xsd:double .
+:UPVC rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#UnloadStation
 :UnloadStation rdf:type owl:NamedIndividual ;
-               :hasActivityCost "0.0"^^xsd:double ;
                rdfs:isDefinedBy "Productivity datasheet" .
 
 
@@ -2486,10 +1515,6 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#VolumetricProject
 :VolumetricProject rdf:type owl:NamedIndividual ;
-                   :hasDetached "2.0"^^xsd:double ;
-                   :hasDistance "20.0"^^xsd:double ;
-                   :hasSemiDetached "2.0"^^xsd:double ;
-                   :hasTerrace "4.0"^^xsd:double ;
                    rdfs:comment "Volumetric (All Pods) (Semi-automated line production for panels and manual assembled pods)" .
 
 
@@ -2500,7 +1525,6 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#WaterCistern
 :WaterCistern rdf:type owl:NamedIndividual ;
-              :hasActivityCost "800.0"^^xsd:double ;
               rdfs:isDefinedBy "Quantity conversation factor datasheet" .
 
 
@@ -2511,23 +1535,19 @@ such as columns, reinforcement cages etc.""" .
 
 ###  https://w3id.org/oho#WindowAndFrenchDoor
 :WindowAndFrenchDoor rdf:type owl:NamedIndividual ;
-                     :hasActivityCost "22080.0"^^xsd:double ;
                      rdfs:isDefinedBy "BIM Model" .
 
 
 ###  https://w3id.org/oho#WithBricklSlip
-:WithBricklSlip rdf:type owl:NamedIndividual ;
-                :hasActivityCost "14949.0"^^xsd:double .
+:WithBricklSlip rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#WithRendering
-:WithRendering rdf:type owl:NamedIndividual ;
-               :hasActivityCost "7658.0"^^xsd:double .
+:WithRendering rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#WithWeatherboard
-:WithWeatherboard rdf:type owl:NamedIndividual ;
-                  :hasActivityCost "12779.0"^^xsd:double .
+:WithWeatherboard rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#brick-slipSystem
@@ -2535,82 +1555,49 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#designcosttest
-:designcosttest rdf:type owl:NamedIndividual ;
-                :hasActivityCost "5000000.0"^^xsd:double .
+:designcosttest rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmBT
-:mmBT rdf:type owl:NamedIndividual ;
-      :hasCount 2 ;
-      :hasLength "1.0225"^^xsd:double ,
-                 "1.07"^^xsd:double ,
-                 "1.36"^^xsd:double ,
-                 "3.123"^^xsd:double ;
-      :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmBT rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmCS
-:mmCS rdf:type owl:NamedIndividual ;
-      :hasCount 12 ;
-      :hasLength "0.3"^^xsd:double ;
-      :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmCS rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmFS
-:mmFS rdf:type owl:NamedIndividual ;
-      :hasCount 4 ;
-      :hasLength "2.8"^^xsd:double ;
-      :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmFS rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmHT
-:mmHT rdf:type owl:NamedIndividual ;
-      :hasCount 2 ;
-      :hasLength "1.36"^^xsd:double ,
-                 "5.2155"^^xsd:double ;
-      :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmHT rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmS
-:mmS rdf:type owl:NamedIndividual ;
-     :hasCount 8 ;
-     :hasLength "2.7"^^xsd:double ;
-     :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmS rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmSS
-:mmSS rdf:type owl:NamedIndividual ;
-      :hasCount 2 ;
-      :hasLength "2.7"^^xsd:double ;
-      :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmSS rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#mmStud
-:mmStud rdf:type owl:NamedIndividual ;
-        :hasCount 20 ,
-                  4 ,
-                  6 ;
-        :hasLength "0.6"^^xsd:double ,
-                   "0.925"^^xsd:double ,
-                   "2.7"^^xsd:double ;
-        :hasMaterialUnitRate "24.99"^^xsd:double .
+:mmStud rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#test
 :test rdf:type owl:NamedIndividual ,
-               :Interface ;
-      :hasActivityCost "1.0"^^xsd:double .
+               :Interface .
 
 
 ###  https://w3id.org/oho#test1
 :test1 rdf:type owl:NamedIndividual ,
-                :House ;
-       :hasActivityCost "1.0"^^xsd:double .
+                :House .
 
 
 ###  https://w3id.org/oho#test3
-:test3 rdf:type owl:NamedIndividual ;
-       :hasActivityCost "1.0"^^xsd:double .
+:test3 rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#type-1
@@ -2626,13 +1613,11 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#xProjectCostEstimation
-:xProjectCostEstimation rdf:type owl:NamedIndividual ;
-                        :hasActivityCost "0.0"^^xsd:double .
+:xProjectCostEstimation rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#1-20
-<https://w3id.org/oho#1-20> rdf:type owl:NamedIndividual ;
-                            :C1 7000 .
+<https://w3id.org/oho#1-20> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)
@@ -2640,66 +1625,54 @@ such as columns, reinforcement cages etc.""" .
 
 
 ###  https://w3id.org/oho#100-200
-<https://w3id.org/oho#100-200> rdf:type owl:NamedIndividual ;
-                               :C1 "3500.0"^^xsd:double .
+<https://w3id.org/oho#100-200> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#150
-<https://w3id.org/oho#150> rdf:type owl:NamedIndividual ;
-                           :hasActivityCost "2959.0"^^xsd:double .
+<https://w3id.org/oho#150> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#200
-<https://w3id.org/oho#200> rdf:type owl:NamedIndividual ;
-                           :hasActivityCost "3038.0"^^xsd:double .
+<https://w3id.org/oho#200> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#21-100
-<https://w3id.org/oho#21-100> rdf:type owl:NamedIndividual ;
-                              :C1 5250 .
+<https://w3id.org/oho#21-100> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Bolts(TypeA)
-<https://w3id.org/oho#Bolts(TypeA)> rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "856.8"^^xsd:double .
+<https://w3id.org/oho#Bolts(TypeA)> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Bolts(TypeB)
-<https://w3id.org/oho#Bolts(TypeB)> rdf:type owl:NamedIndividual ;
-                                    :hasActivityCost "252.0"^^xsd:double .
+<https://w3id.org/oho#Bolts(TypeB)> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)
 <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)> rdf:type owl:NamedIndividual ;
-                                                            :hasActivityCost "4920.0"^^xsd:double ;
                                                             rdfs:isDefinedBy "BIM Model Extraction" .
 
 
 ###  https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)
 <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)> rdf:type owl:NamedIndividual ;
-                                                            :hasActivityCost "27552.0"^^xsd:double ;
                                                             rdfs:isDefinedBy "BIM Model Extraction" .
 
 
 ###  https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)
 <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)> rdf:type owl:NamedIndividual ;
-                                                            :hasActivityCost "8035.999999999999"^^xsd:double ;
                                                             rdfs:isDefinedBy "BIM Model Extraction" .
 
 
 ###  https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)
-<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)> rdf:type owl:NamedIndividual ;
-                                                           :hasActivityCost "8656.0"^^xsd:double .
+<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)
-<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)> rdf:type owl:NamedIndividual ;
-                                                           :hasActivityCost "20709.479999999996"^^xsd:double .
+<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/oho#Rework/bufferStation
 <https://w3id.org/oho#Rework/bufferStation> rdf:type owl:NamedIndividual ;
-                                            :hasActivityCost "355.20000000000005"^^xsd:double ;
                                             rdfs:isDefinedBy "Productivity datasheet" .
 
 
@@ -2720,709 +1693,6 @@ such as columns, reinforcement cages etc.""" .
 :p rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 :Component rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:m rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:a rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:x rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:b rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:r rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:h rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:c rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:y rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:d rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:y1 rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:f rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:u rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:_y rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:n rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:_r rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:lr rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:_z rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:l rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:e rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:z rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Directly procured labour for SA1" ;
-   rdfs:label "C3-A5-SA1-Labour" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPeriodOfProduction ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :f
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasLabourContent ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :u
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                                          :_y
-                                                                                                                          :n
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#arguments> ( :y
-                                                                                                                                     :_r
-                                                                                                                                     :lr
-                                                                                                                                   )
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNoOfHousesBatch ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :n
-                                                                                                 ] ;
-                                                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#arguments> ( :_r
-                                                                                                                                                           :u
-                                                                                                                                                           :f
-                                                                                                                                                         )
-                                                                                                            ] ;
-                                                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                             rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasLabourRate ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument2> :lr
-                                                                                                                       ] ;
-                                                                                                             rdf:rest rdf:nil
-                                                                                                           ]
-                                                                                                ]
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectlyProcuredLabourCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Estimated Cost for Facilities and Utilities per No. of  house Type 1" ;
-   rdfs:label "C3-A5-SA1-Facilities" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPeriodOfProductionFacilities ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :f
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedFacilitiesUtilitiesCost ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :u
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :_r
-                                                                                                                          :u
-                                                                                                                          :f
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNoOfHousesBatchFacilities ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :n
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                                                                :_r
-                                                                                                                                                :n
-                                                                                                                                              )
-                                                                                                 ] ;
-                                                                                       rdf:rest rdf:nil
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedFacilitiesUtilitiesCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Calculate Total Direct Material Cost" ;
-   rdfs:label "S1" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :WallPanel ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectMaterialCost ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :m
-                                                                ] ;
-                                                      rdf:rest rdf:nil
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( :p
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :m
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest rdf:nil
-                                                    ]
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "C1" ;
-   rdfs:label "C1" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :NoOfHousesPerProject ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedBusinessOperationCostPP ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                                          :b
-                                                                                                                          :h
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasBussinesOperationCostC1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "C2 Eq. 3" ;
-   rdfs:label "C2" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNoAnticipatedNB ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasTotalAssignedIndividualConsultantCostPerProduct ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                                          :b
-                                                                                                                          :h
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDesignEngineeringCostC2 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "C4" ;
-   rdfs:label "C4" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedCostPerDistance ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :m
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :_z
-                                                                                                               :m
-                                                                                                               :l
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                                          :_z
-                                                                                                                          :e
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDistancePerJourney ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :l
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNoOfJourneyPerHouse ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :e
-                                                                                                 ] ;
-                                                                                       rdf:rest rdf:nil
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasTransportationCostC4 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Calculate Total Direct Material Cost" ;
-   rdfs:label "Q1" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectMaterialCost ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p> ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m>
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :WallPanel ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p>
-                                                                ] ;
-                                                      rdf:rest rdf:nil
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( <https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p>
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( <https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m>
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest rdf:nil
-                                                    ]
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "" ;
-   rdfs:label "C3-AC5-SA1-Plant" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( :_r
-                                                                                                    :u
-                                                                                                    :f
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasLifePlantEquipment ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :f
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                                          :_y
-                                                                                                                          :n
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPeriodofProduction ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :lr
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#arguments> ( :y
-                                                                                                                                                :_r
-                                                                                                                                                :lr
-                                                                                                                                              )
-                                                                                                 ] ;
-                                                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedPlantEquipmentCost ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#argument2> :u
-                                                                                                            ] ;
-                                                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                             rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNoOfHousesPerBatch ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument2> :n
-                                                                                                                       ] ;
-                                                                                                             rdf:rest rdf:nil
-                                                                                                           ]
-                                                                                                ]
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPlantEquipmentCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "AC3" ;
-   rdfs:label "C3-AC3" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                    :b
-                                                                                                    :h
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedTotalProcurementInventoryCost ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :NoOfHousesPerProjectAC ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasProcurementInventoryCostAC3 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Estimated Cost for Onsite Production per No. of  house Type 1" ;
-   rdfs:label "C5" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                    :a
-                                                                                                    :b
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasOnsiteSupportCost ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasOnsiteWorksCost ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasOnsiteCostC5 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Directly procured materials for Panel Frame Sub-Assembly" ;
-   rdfs:label "C3-AC5-SA1-Materials" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#multiply> ;
-                                                       <http://www.w3.org/2003/11/swrl#arguments> ( :z
-                                                                                                    :m
-                                                                                                    :l
-                                                                                                  )
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasMaterialQuantitySA1 ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument2> :l
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasMaterialUnitRateSA1 ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :m
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectlyProcuredMaterialsCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :z
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Estimated Cost for In Use cost Eq. 16" ;
-   rdfs:label "C6" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEnergyCostPerAnnum ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
-                                                                                                               rdf:first :x ;
-                                                                                                               rdf:rest [ rdf:type rdf:List ;
-                                                                                                                          rdf:first :a ;
-                                                                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                     rdf:first 60 ;
-                                                                                                                                     rdf:rest rdf:nil
-                                                                                                                                   ]
-                                                                                                                        ]
-                                                                                                             ]
-                                                                ] ;
-                                                      rdf:rest rdf:nil
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasInUseCostC6 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "AC1" ;
-   rdfs:label "C3-AC1" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedTotalCustomerRelationsCostPP ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                               :b
-                                                                                                               :h
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :NoOfHousesPerProjectAC ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasCostumerRelationCostAC1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "AC4" ;
-   rdfs:label "C3-AC4" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedTotalFactoryAdministrationCost ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                               :b
-                                                                                                               :h
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :NoOfHousesPerProjectAC ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasFactoryAdministrationCostAC4 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "AC2" ;
-   rdfs:label "C3-AC2" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedTotalPlanningSchedulingCost ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#divide> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :r
-                                                                                                               :b
-                                                                                                               :h
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :NoOfHousesPerProjectAC ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :h
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPlanningSchedulingCostAC2 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :r
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
 
 [ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
    rdfs:comment "" ;
@@ -3447,114 +1717,6 @@ such as columns, reinforcement cages etc.""" .
                                                        <http://www.w3.org/2003/11/swrl#builtin> <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> ;
                                                        <http://www.w3.org/2003/11/swrl#arguments> ( :Component
                                                                                                   )
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Module Assembly Cost" ;
-   rdfs:label "C5-AC1-SA2" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPlantEquipmentCost ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                               :a
-                                                                                                               :b
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectlyProcuredLabourCost ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                           ] ;
-                                                                 rdf:rest rdf:nil
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasModuleAssemblyCost ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :x
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "Panel Frame Sub-Assembly Cost" ;
-   rdfs:label "C3-AC5-SA1" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPlantEquipmentCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :c
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> ( :y
-                                                                                                               :x
-                                                                                                               :c
-                                                                                                             )
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> ( :x
-                                                                                                                          :a
-                                                                                                                          :b
-                                                                                                                        )
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectlyProcuredMaterialsCostSA1 ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :d
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignedFacilitiesUtilitiesCostSA1 ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                                                 ] ;
-                                                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#add> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#arguments> ( :y1
-                                                                                                                                                           :y
-                                                                                                                                                           :d
-                                                                                                                                                         )
-                                                                                                            ] ;
-                                                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                             rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDirectlyProcuredLabourCostSA1 ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                                         <http://www.w3.org/2003/11/swrl#argument2> :b
-                                                                                                                       ] ;
-                                                                                                             rdf:rest rdf:nil
-                                                                                                           ]
-                                                                                                ]
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasPanelFrameSubAssemblyCostSA1 ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :y1
                                                      ] ;
                                            rdf:rest rdf:nil
                                          ]
