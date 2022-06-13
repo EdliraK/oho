@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/oho#"
+     xml:base="https://w3id.org/oho"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/oho#">
+        <owl:versionIRI rdf:resource="https://w3id.org/oho#/1.0.0"/>
+        <dc:contributor>Abdel-Rahman Tawil</dc:contributor>
+        <dc:contributor>Franco Cheung</dc:contributor>
+        <dc:contributor>Kudirat Ayinla</dc:contributor>
+        <dc:creator>Edlira Vakaj</dc:creator>
+        <dc:title>OHO: an Offsite Housing Ontology</dc:title>
+        <terms:license>https://creativecommons.org/licenses/by/3.0/</terms:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/oho#composedOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#composedOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#House"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Component"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#hasComponentPart -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#hasComponentPart">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#hasInterface -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#hasInterface">
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#isInterfaceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#isInterfaceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Interface"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Component"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#producedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#producedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Production"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/oho#BathroomCabinet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#BathroomCabinet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Battery -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Battery">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Component -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Component">
+        <dc:description>Manufactured individual building element
+including prefabricated elements e.g. precast
+staircases, refuse chutes, structural members
+such as columns, reinforcement cages etc.</dc:description>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Detached -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Detached">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+        <rdfs:comment>Type of house.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Door -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Door">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Duct -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Duct">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#ElectricityCable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#ElectricityCable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#HeatRecoveryUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#HeatRecoveryUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#House -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#House"/>
+    
+
+
+    <!-- https://w3id.org/oho#Interface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Interface"/>
+    
+
+
+    <!-- https://w3id.org/oho#KitchenCabinet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#KitchenCabinet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#LightSwitch -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#LightSwitch">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#LightingCable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#LightingCable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#PendantLight -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#PendantLight">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Pipe -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Pipe">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Pod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Pod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#PodFrame -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#PodFrame">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Product -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Product"/>
+    
+
+
+    <!-- https://w3id.org/oho#Production -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Production"/>
+    
+
+
+    <!-- https://w3id.org/oho#Radiator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Radiator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#RecessedLight -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#RecessedLight">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SanitaryFitting -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SanitaryFitting">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SemiDetached -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SemiDetached">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Socket -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Socket">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SolarPanel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SolarPanel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Stair -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Stair">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Tape -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Tape">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Terrace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Terrace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#WallPanel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#WallPanel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#WhiteGood -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#WhiteGood">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/oho#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/oho#Component">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho#hasComponentPart"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho#p"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/oho#Component"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="https://w3id.org/oho#Product"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/oho#Component"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
