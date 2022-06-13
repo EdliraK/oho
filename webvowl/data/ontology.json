@@ -24,17 +24,17 @@
       "contributor" : [ {
         "identifier" : "contributor",
         "language" : "undefined",
+        "value" : "Kudirat Ayinla",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
         "value" : "Abdel-Rahman Tawil",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
         "value" : "Franco Cheung",
-        "type" : "label"
-      }, {
-        "identifier" : "contributor",
-        "language" : "undefined",
-        "value" : "Kudirat Ayinla",
         "type" : "label"
       } ],
       "title" : [ {
@@ -71,7 +71,7 @@
     "id" : "35",
     "type" : "owl:Class"
   }, {
-    "id" : "39",
+    "id" : "42",
     "type" : "owl:Class"
   }, {
     "id" : "22",
@@ -101,7 +101,7 @@
     "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "55",
@@ -146,7 +146,7 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
+    "id" : "40",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -231,7 +231,7 @@
     "label" : {
       "IRI-based" : "Pod"
     },
-    "id" : "39",
+    "id" : "42",
     "superClasses" : [ "34" ]
   }, {
     "iri" : "https://w3id.org/oho#House",
@@ -297,7 +297,7 @@
     "label" : {
       "IRI-based" : "Product"
     },
-    "subClasses" : [ "33", "35", "39" ],
+    "subClasses" : [ "33", "35", "42" ],
     "id" : "34"
   }, {
     "iri" : "https://w3id.org/oho#LightSwitch",
@@ -317,7 +317,7 @@
     "instances" : 0,
     "union" : [ "34", "1" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "42"
+    "id" : "41"
   }, {
     "iri" : "https://w3id.org/oho#Production",
     "baseIri" : "https://w3id.org/oho",
@@ -444,7 +444,7 @@
     "label" : {
       "IRI-based" : "Interface"
     },
-    "id" : "41"
+    "id" : "40"
   } ],
   "property" : [ {
     "id" : "20",
@@ -477,7 +477,7 @@
     "id" : "36",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "40",
+    "id" : "39",
     "type" : "owl:objectProperty"
   }, {
     "id" : "43",
@@ -595,13 +595,13 @@
   }, {
     "iri" : "https://w3id.org/oho#isInterfaceOf",
     "baseIri" : "https://w3id.org/oho",
-    "range" : "42",
+    "range" : "41",
     "label" : {
       "IRI-based" : "isInterfaceOf"
     },
-    "domain" : "41",
+    "domain" : "40",
     "attributes" : [ "object" ],
-    "id" : "40"
+    "id" : "39"
   }, {
     "range" : "1",
     "domain" : "12",
@@ -655,7 +655,7 @@
   }, {
     "iri" : "https://w3id.org/oho#hasInterface",
     "baseIri" : "https://w3id.org/oho",
-    "range" : "41",
+    "range" : "40",
     "label" : {
       "IRI-based" : "hasInterface"
     },
@@ -684,7 +684,7 @@
     "id" : "57"
   }, {
     "range" : "34",
-    "domain" : "39",
+    "domain" : "42",
     "attributes" : [ "anonymous", "object" ],
     "id" : "58"
   }, {

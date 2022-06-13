@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/oho#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/oho#","name":"OHO: an Offsite Housing Ontology", "headline":"Document describing the ontology https://w3id.org/oho#", "datePublished":"Mon Jun 13 22:25:47 BST 2022", "license":"https://creativecommons.org/licenses/by/3.0/", "author":[{"@type":"Person","name":"Edlira Vakaj"}], "contributor":[{"@type":"Person","name":"Abdel-Rahman Tawil"},{"@type":"Person","name":"Franco Cheung"},{"@type":"Person","name":"Kudirat Ayinla"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/oho#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/oho#","name":"OHO: an Offsite Housing Ontology", "headline":"<h2>Abstract</h2><span class="markdown">A new domain ontology, Offsite Housing Ontology (OHO), is presented here. OHO facilitates the semantic integration of offsite construction knowledge,  enabling it to be used in DfMA practice. It semantically defines offsite construction domain terminology and relationships, describing a core vocabulary. This supports a unified model, required for efficient collaborative design management, while improving existing data flows. The efficiency and effectiveness of the OHO approach is demonstrated in a real-world DfMA scenario through the development of a Knowledge Based Engineering tool to automate life cycle cost and $CO_2$ emissions estimation. As OHO is extensible, this approach can be adapted and extended to accommodate a very wide range of offsite housing, delivering important optimization and automation benefit for sustainable life cycle solutions.</span><p>OHO has two modules:<a href="https://edlirak.github.io/oho/oho-cost/index-en.html"> OHO-Cost </a>for estimating life cycle cost of a OHO house and <a href="https://edlirak.github.io/oho-pro/index-en.html">OHO-Pro </a> for representing the production line of each product of the OHO house.</p><p>All the modules of OHO are found in this OWL file:<a href="sections/oho-all-modules.owl"> OHO Modules </a> and more information about the projects is in this <a href="http://dfma.innovationfest.co.uk/"> Link </a>.</p><p>SPARQL query examples are listed here <a href="http://dfma.innovationfest.co.uk/queryOntology"> Link </a> and more can be tested in the same endpoint.</p>  <img src="GraphicalAbstract.png" alt="Graphical Abstract of OHO" width="700" height="400">", "datePublished":"13/06/2022", "license":"https://creativecommons.org/licenses/by/3.0/", "author":[{"@type":"Person","name":"Edlira Vakaj"}], "contributor":[{"@type":"Person","name":"Abdel-Rahman Tawil"},{"@type":"Person","name":"Franco Cheung"},{"@type":"Person","name":"Kudirat Ayinla"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -45,6 +45,7 @@ function loadTOC(){
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
+      $("#abstract").load("sections/abstract-en.html"); 
       $("#overview").load("sections/overview-en.html"); 
       $("#description").load("sections/description-en.html"); 
       $("#references").load("sections/references-en.html"); 
@@ -58,6 +59,7 @@ function loadTOC(){
 <div class="head">
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
 <h1>OHO: an Offsite Housing Ontology</h1>
+<h2>Release 13/06/2022</h2>
 
 
 <dl>
@@ -83,7 +85,8 @@ function loadTOC(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div><div id="toc"></div>     <div id="overview"></div>
+</div>     <div id="abstract"></div>
+<div id="toc"></div>     <div id="overview"></div>
      <div id="description"></div>
      <div id="crossref"></div>
      <div id="references"></div>
